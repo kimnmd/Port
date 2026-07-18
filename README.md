@@ -3,6 +3,19 @@
 A fast, accessible portfolio site built with **Next.js 14 (App Router)** and **Tailwind CSS**.
 All copy lives in one file so you can edit words without touching components.
 
+## Set up on a new computer (e.g. your laptop)
+
+1. **Install Node.js** — download the LTS installer from [nodejs.org](https://nodejs.org) and click through it.
+2. **Install [GitHub Desktop](https://desktop.github.com)** and sign in to your GitHub account.
+3. **Clone this repo:** File → Clone repository → pick it from the list.
+4. Open a terminal in the project folder and run:
+   ```
+   npm install      # rebuilds dependencies (node_modules is NOT in git — this recreates it)
+   npm run dev      # http://localhost:3000
+   ```
+
+That's it. `node_modules` and `.next` are intentionally not stored in git; `npm install` regenerates them on each machine.
+
 ## Run it locally
 
 Node.js 18+ is required. This machine has a portable copy at `C:\Users\Public\node-portable`.
