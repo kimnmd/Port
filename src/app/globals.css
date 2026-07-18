@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f9fbfb;
+  --bg-soft: #eef3f4;
+  --bg-sink: #dde6e8;
+  --fg: #253237;
+  --fg-soft: #46565d;
+  --fg-faint: #5c6b73;
+  --border: #d8e2e4;
+  --accent: #5c6b73;
+  --accent-strong: #253237;
+  --accent-contrast: #ffffff;
+}
+
+.dark {
+  --bg: #1c262a;
+  --bg-soft: #253237;
+  --bg-sink: #2e3e45;
+  --fg: #e0fbfc;
+  --fg-soft: #c2dfe3;
+  --fg-faint: #9db4c0;
+  --border: #38484f;
+  --accent: #9db4c0;
+  --accent-strong: #c2dfe3;
+  --accent-contrast: #1c262a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .text-fg {
+    color: var(--fg);
+  }
+  .text-fg-soft {
+    color: var(--fg-soft);
+  }
+  .text-fg-faint {
+    color: var(--fg-faint);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
+  .bg-canvas {
+    background-color: var(--bg);
+  }
+  .bg-soft {
+    background-color: var(--bg-soft);
+  }
+  .bg-sink {
+    background-color: var(--bg-sink);
+  }
+  .bg-accent-solid {
+    background-color: var(--accent);
+  }
+  .border-hair {
+    border-color: var(--border);
+  }
+  .accent-ring {
+    box-shadow: 0 0 0 1px var(--border);
+  }
+
+  /* Scroll-reveal: starts hidden, animates in when .is-visible is added. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
