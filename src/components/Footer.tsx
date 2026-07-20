@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { EmailReveal } from "@/components/EmailReveal";
 import { nav, site } from "@/lib/content";
 
 export function Footer() {
@@ -40,9 +41,7 @@ export function Footer() {
               </p>
               <ul className="mt-4 space-y-2.5 text-sm text-fg-soft">
                 <li>
-                  <a href={`mailto:${site.email}`} className="transition-colors hover:text-accent">
-                    Email
-                  </a>
+                  <EmailReveal email={site.email} variant="link" label="Email" />
                 </li>
                 <li>
                   <a

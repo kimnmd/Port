@@ -4,9 +4,7 @@
  * case-study page can decide chart-vs-placeholder without pulling in client code.
  */
 export const CHART_SLUGS = [
-  "compensation-pay-equity",
-  "recruiting-onboarding-pipeline",
-  "employee-relations-system",
+  "price-of-belonging",
   "raising-talent",
   "purpose-or-paycheck",
 ] as const;

@@ -1,55 +1,32 @@
-import { hero, howIWork } from "@/lib/content";
-import { Container, Cta, Eyebrow } from "@/components/ui";
+import { howIWork } from "@/lib/content";
+import { Container, Eyebrow } from "@/components/ui";
 import { MetricsBar } from "@/components/MetricsBar";
 import { InteractiveSelector } from "@/components/ui/interactive-selector";
+import { InfiniteGridHero } from "@/components/ui/infinite-grid-hero";
 import { Reveal } from "@/components/Reveal";
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero + interactive work selector */}
-      <section id="work" className="relative scroll-mt-24 overflow-hidden">
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 -z-10 opacity-70"
-          style={{
-            background:
-              "radial-gradient(60% 55% at 18% 0%, rgba(157,180,192,0.20), transparent 62%), radial-gradient(48% 50% at 100% 8%, rgba(157,180,192,0.12), transparent 62%)",
-          }}
-        />
-        <Container className="pb-16 pt-16 sm:pt-20">
-          <div className="max-w-3xl">
-            <Reveal>
-              <Eyebrow>{hero.kicker}</Eyebrow>
-            </Reveal>
-            <Reveal delay={80}>
-              <h1 className="mt-5 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-fg sm:text-6xl">
-                HR leader who builds.
-              </h1>
-            </Reveal>
-            <Reveal delay={160}>
-              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-fg-soft sm:text-xl">
-                {hero.statement}
-              </p>
-            </Reveal>
-            <Reveal delay={240}>
-              <div className="mt-9 flex flex-wrap items-center gap-3">
-                <Cta href="/about">Get in touch</Cta>
-                <Cta href={hero.secondaryCta.href} variant="outline">
-                  {hero.secondaryCta.label}
-                </Cta>
-              </div>
-            </Reveal>
-          </div>
+      {/* Landing hero */}
+      <InfiniteGridHero />
 
-          {/* The selector: five case studies, hover to expand, click to open */}
-          <Reveal delay={120} className="mt-14">
+      {/* Work — scrolled to from "Explore my work" */}
+      <section id="work" className="scroll-mt-24 border-t border-hair">
+        <Container className="py-20 sm:py-24">
+          <Reveal className="mb-10 max-w-2xl">
+            <Eyebrow>Selected work</Eyebrow>
+            <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+              The work, and the story behind it.
+            </h2>
+          </Reveal>
+          <Reveal delay={120}>
             <InteractiveSelector />
             <p className="mt-4 flex items-center gap-2 text-sm text-fg-faint">
               <span className="hidden sm:inline">
-                Hover a project to explore · click to open the case study.
+                Hover a panel to explore · click to open it.
               </span>
-              <span className="sm:hidden">Tap a project to open the case study.</span>
+              <span className="sm:hidden">Tap any panel to open it.</span>
             </p>
           </Reveal>
         </Container>

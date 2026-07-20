@@ -9,20 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Slate + cyan accent scale — used consistently across the site.
+        // Periwinkle → indigo accent scale — used consistently across the site.
         accent: {
-          DEFAULT: "#5c6b73",
-          50: "#eef4f5",
-          100: "#e0fbfc",
-          200: "#c2dfe3",
-          300: "#9db4c0",
-          400: "#7b909a",
-          500: "#5c6b73",
-          600: "#4a575e",
-          700: "#3c474d",
-          800: "#313b40",
-          900: "#2a3236",
-          950: "#253237",
+          DEFAULT: "#3b5bdb",
+          50: "#eef1fd",
+          100: "#dee4fb",
+          200: "#c3ccf6",
+          300: "#b4c4f0",
+          400: "#7b93e9",
+          500: "#3b5bdb",
+          600: "#2f49c4",
+          700: "#2a40a6",
+          800: "#263a85",
+          900: "#23346b",
+          950: "#1e2439",
         },
         ink: {
           DEFAULT: "#253237",
@@ -33,6 +33,22 @@ const config: Config = {
           DEFAULT: "#f7fcfd",
           soft: "#e0fbfc",
           sink: "#c2dfe3",
+        },
+        // Semantic tokens (shadcn-style), driven by CSS variables in globals.css.
+        background: "rgb(var(--background) / <alpha-value>)",
+        foreground: "rgb(var(--foreground) / <alpha-value>)",
+        border: "rgb(var(--border-token) / <alpha-value>)",
+        card: {
+          DEFAULT: "rgb(var(--card) / <alpha-value>)",
+          foreground: "rgb(var(--card-foreground) / <alpha-value>)",
+        },
+        muted: {
+          DEFAULT: "rgb(var(--muted) / <alpha-value>)",
+          foreground: "rgb(var(--muted-foreground) / <alpha-value>)",
+        },
+        primary: {
+          DEFAULT: "rgb(var(--primary) / <alpha-value>)",
+          foreground: "rgb(var(--primary-foreground) / <alpha-value>)",
         },
       },
       fontFamily: {

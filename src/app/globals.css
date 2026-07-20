@@ -3,29 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f9fbfb;
-  --bg-soft: #eef3f4;
-  --bg-sink: #dde6e8;
-  --fg: #253237;
-  --fg-soft: #46565d;
-  --fg-faint: #5c6b73;
-  --border: #d8e2e4;
-  --accent: #5c6b73;
-  --accent-strong: #253237;
+  /* Periwinkle Calm — cool, credible, quietly modern */
+  --bg: #fcfcff;
+  --bg-soft: #eef1fb;
+  --bg-sink: #e1e7f7;
+  --fg: #1e2439;
+  --fg-soft: #454d66;
+  --fg-faint: #6c7594;
+  --border: #dce3f4;
+  --accent: #3b5bdb;
+  --accent-strong: #2a40a6;
   --accent-contrast: #ffffff;
+
+  /* Semantic tokens (shadcn-style) as R G B channels for opacity modifiers. */
+  --background: 252 252 255;
+  --foreground: 30 36 57;
+  --card: 255 255 255;
+  --card-foreground: 30 36 57;
+  --muted: 238 241 251;
+  --muted-foreground: 108 117 148;
+  --primary: 59 91 219;
+  --primary-foreground: 255 255 255;
+  --border-token: 220 227 244;
 }
 
 .dark {
-  --bg: #1c262a;
-  --bg-soft: #253237;
-  --bg-sink: #2e3e45;
-  --fg: #e0fbfc;
-  --fg-soft: #c2dfe3;
-  --fg-faint: #9db4c0;
-  --border: #38484f;
-  --accent: #9db4c0;
-  --accent-strong: #c2dfe3;
-  --accent-contrast: #1c262a;
+  --bg: #12151f;
+  --bg-soft: #1a1e2b;
+  --bg-sink: #232941;
+  --fg: #e9ecf8;
+  --fg-soft: #c4cbe4;
+  --fg-faint: #8e97b8;
+  --border: #2e3450;
+  --accent: #8fa2f2;
+  --accent-strong: #b4c4f0;
+  --accent-contrast: #12151f;
+
+  --background: 18 21 31;
+  --foreground: 233 236 248;
+  --card: 35 41 65;
+  --card-foreground: 233 236 248;
+  --muted: 26 30 43;
+  --muted-foreground: 142 151 184;
+  --primary: 143 162 242;
+  --primary-foreground: 18 21 31;
+  --border-token: 46 52 80;
 }
 
 @layer base {

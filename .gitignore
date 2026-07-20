@@ -34,4 +34,5 @@ next-env.d.ts
 
 # working source documents (kept local, not part of the app)
 /*.pdf
+/*.png
 /claude-code-portfolio-prompt.md

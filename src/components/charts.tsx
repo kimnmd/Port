@@ -69,62 +69,6 @@ function SvgTooltip({ x, y, title, value }: { x: number; y: number; title: strin
 
 type Tip = { x: number; y: number; title: string; value: string } | null;
 
-/* ---- 1. Compensation: equity glide path (line) ------------------ */
-
-export function EquityGlidePathChart() {
-  const pad = { l: 52, r: 24, t: 34, b: 44 };
-  const w = VB_W - pad.l - pad.r;
-  const h = VB_H - pad.t - pad.b;
-  const pts = [32, 22, 11, 2];
-  const maxY = 32;
-  const xLabels = ["Baseline", "Year 1", "Year 2", "Year 3"];
-  const x = (i: number) => pad.l + (w * i) / (pts.length - 1);
-  const y = (v: number) => pad.t + h - (h * v) / maxY;
-  const line = pts.map((v, i) => `${i === 0 ? "M" : "L"} ${x(i)} ${y(v)}`).join(" ");
-  const area = `${line} L ${x(pts.length - 1)} ${pad.t + h} L ${x(0)} ${pad.t + h} Z`;
-  const [tip, setTip] = useState<Tip>(null);
-
-  return (
-    <Figure title="Pay-equity gap, 3-year glide path">
-      {[0, 8, 16, 24, 32].map((v) => (
-        <g key={v}>
-          <line x1={pad.l} y1={y(v)} x2={pad.l + w} y2={y(v)} stroke="var(--border)" strokeWidth={1} />
-          <text x={pad.l - 10} y={y(v) + 4} textAnchor="end" fontSize={12} fill="var(--fg-faint)">
-            {v}%
-          </text>
-        </g>
-      ))}
-      <path d={area} fill="var(--accent)" opacity={0.1} />
-      <path d={line} fill="none" stroke="var(--accent)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" />
-      {pts.map((v, i) => (
-        <circle
-          key={i}
-          cx={x(i)}
-          cy={y(v)}
-          r={tip?.title === xLabels[i] ? 7 : 4.5}
-          fill="var(--accent)"
-          style={{ cursor: "pointer", transition: "r 120ms" }}
-          onMouseEnter={() => setTip({ x: x(i), y: y(v), title: xLabels[i], value: `${v}%` })}
-          onMouseLeave={() => setTip(null)}
-          onClick={() => setTip({ x: x(i), y: y(v), title: xLabels[i], value: `${v}%` })}
-        />
-      ))}
-      <text x={x(0) + 8} y={y(32) - 10} fontSize={15} fontWeight={700} fill="var(--fg)">
-        32%
-      </text>
-      <text x={x(3) - 4} y={y(2) - 12} textAnchor="end" fontSize={13} fontWeight={600} fill="var(--accent)">
-        on plan
-      </text>
-      {xLabels.map((l, i) => (
-        <text key={l} x={x(i)} y={pad.t + h + 24} textAnchor="middle" fontSize={12} fill="var(--fg-faint)">
-          {l}
-        </text>
-      ))}
-      {tip && <SvgTooltip {...tip} />}
-    </Figure>
-  );
-}
-
 /* ---- Before/after bars (interactive) ---------------------------- */
 
 function BeforeAfter({
@@ -203,76 +147,6 @@ function BeforeAfter({
       <rect x={VB_W / 2 - 44} y={pad.t - 16} width={88} height={26} rx={13} fill="var(--accent)" opacity={0.12} />
       <text x={VB_W / 2} y={pad.t + 2} textAnchor="middle" fontSize={14} fontWeight={700} fill="var(--accent)">
         {deltaLabel}
-      </text>
-      {tip && <SvgTooltip {...tip} />}
-    </Figure>
-  );
-}
-
-export function OnboardingHoursChart() {
-  return (
-    <BeforeAfter
-      title="Onboarding: administrative hours on day one"
-      before={8}
-      after={3}
-      unit=" hrs"
-      deltaLabel="−62%"
-      beforeLabel="Before"
-      afterLabel="After"
-    />
-  );
-}
-
-/* ---- 3. Employee Relations: caseload composition ---------------- */
-
-export function CaseloadCompositionChart() {
-  const pad = { l: 28, r: 28 };
-  const w = VB_W - pad.l - pad.r;
-  const er = 25;
-  const sub = 10;
-  const total = er + sub;
-  const barGap = 6;
-  const erW = (w - barGap) * (er / total);
-  const subW = (w - barGap) * (sub / total);
-  const barY = 150;
-  const barH = 64;
-  const [tip, setTip] = useState<Tip>(null);
-
-  const segs = [
-    { x: pad.l, w: erW, op: 1, big: "25+", label: "ER cases", value: "25+ / mo" },
-    { x: pad.l + erW + barGap, w: subW, op: 0.42, big: "~10", label: "Subpoena responses", value: "~10 / mo" },
-  ];
-
-  return (
-    <Figure title="Monthly caseload composition">
-      {segs.map((s) => {
-        const hovered = tip?.title === s.label;
-        return (
-          <g key={s.label}>
-            <rect
-              x={s.x}
-              y={barY}
-              width={s.w}
-              height={barH}
-              rx={6}
-              fill="var(--accent)"
-              opacity={hovered ? Math.min(s.op + 0.2, 1) : s.op}
-              style={{ cursor: "pointer", transition: "opacity 120ms" }}
-              onMouseEnter={() => setTip({ x: s.x + s.w / 2, y: barY, title: s.label, value: s.value })}
-              onMouseLeave={() => setTip(null)}
-              onClick={() => setTip({ x: s.x + s.w / 2, y: barY, title: s.label, value: s.value })}
-            />
-            <text x={s.x + s.w / 2} y={barY - 16} textAnchor="middle" fontSize={30} fontWeight={700} fill="var(--fg)">
-              {s.big}
-            </text>
-            <text x={s.x + s.w / 2} y={barY + barH + 30} textAnchor="middle" fontSize={13} fill="var(--fg-faint)">
-              {s.label}
-            </text>
-          </g>
-        );
-      })}
-      <text x={VB_W / 2} y={40} textAnchor="middle" fontSize={13} fill="var(--fg-faint)">
-        About 35 concurrent matters resolved every month, all on time and in compliance
       </text>
       {tip && <SvgTooltip {...tip} />}
     </Figure>
@@ -633,6 +507,69 @@ export function TurnoverDumbbell() {
   );
 }
 
+/* ---- 6. Price of Belonging: five-year turnover decline (line) ---- */
+
+export function TurnoverDeclineChart() {
+  const pad = { l: 52, r: 26, t: 40, b: 44 };
+  const w = VB_W - pad.l - pad.r;
+  const h = VB_H - pad.t - pad.b;
+  const pts = [32, 27, 23, 20, 17];
+  const labels = ["Year 1", "Year 2", "Year 3", "Year 4", "Year 5"];
+  const yMin = 14;
+  const yMax = 34;
+  const x = (i: number) => pad.l + (w * i) / (pts.length - 1);
+  const y = (v: number) => pad.t + h - (h * (v - yMin)) / (yMax - yMin);
+  const line = pts.map((v, i) => `${i === 0 ? "M" : "L"} ${x(i)} ${y(v)}`).join(" ");
+  const area = `${line} L ${x(pts.length - 1)} ${pad.t + h} L ${x(0)} ${pad.t + h} Z`;
+  const [tip, setTip] = useState<Tip>(null);
+
+  return (
+    <Figure title="Voluntary turnover, five-year trend">
+      {[16, 20, 24, 28, 32].map((v) => (
+        <g key={v}>
+          <line x1={pad.l} y1={y(v)} x2={pad.l + w} y2={y(v)} stroke="var(--border)" strokeWidth={1} />
+          <text x={pad.l - 10} y={y(v) + 4} textAnchor="end" fontSize={12} fill="var(--fg-faint)">
+            {v}%
+          </text>
+        </g>
+      ))}
+      <path d={area} fill="var(--accent)" opacity={0.1} />
+      <path d={line} fill="none" stroke="var(--accent)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" />
+      {pts.map((v, i) => (
+        <circle
+          key={i}
+          cx={x(i)}
+          cy={y(v)}
+          r={tip?.title === labels[i] ? 7 : 4.5}
+          fill="var(--accent)"
+          style={{ cursor: "pointer", transition: "r 120ms" }}
+          onMouseEnter={() => setTip({ x: x(i), y: y(v), title: labels[i], value: `${v}%` })}
+          onMouseLeave={() => setTip(null)}
+          onClick={() => setTip({ x: x(i), y: y(v), title: labels[i], value: `${v}%` })}
+        />
+      ))}
+      <text x={x(0)} y={y(32) - 14} textAnchor="middle" fontSize={16} fontWeight={700} fill="var(--fg)">
+        32%
+      </text>
+      <text x={x(4)} y={y(17) - 14} textAnchor="end" fontSize={16} fontWeight={700} fill="var(--accent)">
+        17%
+      </text>
+      <text x={x(4)} y={y(17) + 2} textAnchor="end" fontSize={12} fill="var(--fg-faint)">
+        still falling
+      </text>
+      <text x={VB_W / 2} y={pad.t - 14} textAnchor="middle" fontSize={13} fill="var(--fg-faint)">
+        A sustained decline, not a one-cycle dip: structural change compounds
+      </text>
+      {labels.map((l, i) => (
+        <text key={l} x={x(i)} y={pad.t + h + 24} textAnchor="middle" fontSize={12} fill="var(--fg-faint)">
+          {l}
+        </text>
+      ))}
+      {tip && <SvgTooltip {...tip} />}
+    </Figure>
+  );
+}
+
 /* ---- Inline charts (embedded in the full-study deep dive) -------- */
 
 const INLINE: Record<string, () => JSX.Element> = {
@@ -641,6 +578,7 @@ const INLINE: Record<string, () => JSX.Element> = {
   enrollment: EnrollmentBar,
   turnover: TurnoverDumbbell,
   departures: DeparturesChart,
+  turnoverDecline: TurnoverDeclineChart,
 };
 
 export function InlineChart({ id }: { id: string }): JSX.Element | null {
@@ -651,11 +589,9 @@ export function InlineChart({ id }: { id: string }): JSX.Element | null {
 /* ---- registry (top-of-case hero chart) -------------------------- */
 
 const CHARTS: Record<string, () => JSX.Element> = {
-  "compensation-pay-equity": EquityGlidePathChart,
-  "recruiting-onboarding-pipeline": OnboardingHoursChart,
-  "employee-relations-system": CaseloadCompositionChart,
   "raising-talent": HeadcountCascadeChart,
   "purpose-or-paycheck": ValueDonutChart,
+  "price-of-belonging": TurnoverDeclineChart,
 };
 
 export function CaseChart({ slug }: { slug: string }): JSX.Element | null {

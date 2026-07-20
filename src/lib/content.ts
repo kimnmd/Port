@@ -94,9 +94,8 @@ export const site = {
   // Employer referenced generically to protect confidentiality.
   employerGeneric: "a multi-site manufacturer (750+ employees, 15 pay groups)",
   email: "djkcasper@gmail.com",
-  // TODO: replace with your real LinkedIn URL before deploying.
-  linkedin: "https://www.linkedin.com/in/your-handle",
-  resumeFile: "/resume-placeholder.pdf",
+  linkedin: "https://www.linkedin.com/in/dojunkimm/",
+  resumeFile: "/alex-kim-resume.pdf",
   tagline:
     "HR run as systems, not events. People judgment paired with technical execution.",
   metaDescription:
@@ -105,8 +104,8 @@ export const site = {
 
 export const nav = [
   { label: "Work", href: "/#work" },
-  { label: "How I Think", href: "/thinking" },
-  { label: "About", href: "/about" },
+  { label: "What I Do", href: "/about/how-i-work" },
+  { label: "About", href: "/about/who-i-am" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -117,7 +116,7 @@ export const hero = {
   kicker: "HR leader who builds",
   statement:
     "I find the systemic problems nobody assigned me: a 32% pay-equity gap, an 8-hour onboarding day, a 34% turnover rate. Then I quantify them with regulator-grade rigor and build the monitoring that keeps them solved. It's HR run as systems, not events.",
-  primaryCta: { label: "Get in touch", href: "/about" },
+  primaryCta: { label: "Get in touch", href: "/about/who-i-am" },
   secondaryCta: { label: "How I think", href: "/thinking" },
 };
 
@@ -163,99 +162,112 @@ export const howIWork: Principle[] = [
 
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "compensation-pay-equity",
+    slug: "price-of-belonging",
     order: 1,
     featured: true,
-    eyebrow: "Compensation",
-    title: "The Audit Nobody Asked For",
+    eyebrow: "Culture",
+    title: "The Price of Belonging",
     summary:
-      "Running quarterly payroll audits, I kept finding pay that wouldn't reconcile. I built the analysis that quantified a 32% equity gap, then the monthly monitoring that keeps it closed.",
-    tags: ["Pay Equity", "Compensation Analytics", "Total Rewards", "Adverse-Impact Testing"],
+      "A genuinely warm “family” culture was quietly losing nearly a third of its people a year. Exit interviews kept surfacing one word: acknowledgment. I diagnosed recognition that had been privatized into relationships, then built the formal channels that gave it back. Turnover fell about five points in the first cycle and kept falling, from 32% down to 17% by year five, and 95% of employees said they wanted a professional culture.",
+    tags: ["Organizational Culture", "Retention", "Performance Management", "Change Management"],
     problem:
-      "Pay inequity is a compounding liability. Every merit cycle built on an inequitable base widens the gap and raises the cost of the eventual correction, and it grows the legal exposure, since California's Equal Pay Act puts the burden of justification on the employer. The most dangerous version of the problem is the one nobody has quantified; the second most dangerous is the one that got fixed once and never monitored again. While running quarterly payroll audits, I kept seeing compensation figures that wouldn't reconcile against role, tenure, or performance.",
+      "A workplace where people feel protected and cared for should, on any conventional account, keep its people. This one didn't. In a mid-size firm whose “family” culture was real, where colleagues genuinely looked out for one another and manufactured the sense of safety most organizations spend fortunes chasing, annual turnover still ran about 32%, and the organization had learned to treat losing nearly a third of its members every year as normal. The warmth wasn't a facade; it was the best thing about the place, which is exactly why the numbers were so hard to explain. Across five years of exit interviews one word recurred more than any other: acknowledgment. People didn't leave angry at their colleagues, their workload, or even, primarily, their pay. They left a warm organization feeling invisible.",
     call:
-      "A payroll administrator's job description says to process what's approved. I decided the anomalies were the job. Rather than let the discrepancies pass, I built a full compensation analysis to find out whether they were noise or structure.",
+      "It would have been natural to attack the symptoms: discipline the favoritism, discourage the cliques, audit the promotions. I concluded that would fail, because the symptoms shared a single root. The organization had no formal channels through which recognition and feedback could flow, so both had been privatized into personal relationships, and relationships reward closeness, not contribution. So I made the call not to dismantle a culture people treasured, but to build formal structure beneath it, giving feedback and recognition official channels so warmth could go back to being warmth instead of doing a job it was never designed to do.",
     built: [
-      "Benchmarked internal pay against market data and calculated compa-ratios by role and tenure band, isolating pay decisions with no defensible business rationale. The analysis surfaced a 32% compensation equity gap.",
-      "Framed the finding as a fundable business case on three pillars: quantified Equal Pay Act exposure, retention risk (below-market employees are the ones recruiters call first), and a three-year phased remediation sequenced through existing merit cycles, inside budget guardrails leadership could actually commit to.",
-      "Built equity monitoring into a standing monthly rhythm: pay-data analysis of representation ratios by department, overtime-allocation analysis by demographic, and four-fifths (80%) rule testing, the same statistical screen regulators and plaintiffs' attorneys apply.",
-      "Anchored the analytics on full-stack compensation operations: end-to-end payroll across 15 pay groups, monthly stock-option administration in partnership with Morgan Stanley, annual bonus payroll for 750+, and open-enrollment leadership across the total-rewards stack (medical, dental, vision, 401(k), Roth) with 100% election completion.",
+      "Traced the mechanism before touching it. With recognition unavailable through visible work, employees had improvised a market for it through visible closeness: coffee bought for a manager, lunches attended, an extra measure of deference. Meanwhile the annual review had decayed into a ceremony that transmitted no information, so the exit interview had become the only honest performance review, delivered at the one moment it could no longer help.",
+      "Moved performance evaluations from annual to quarterly, shortening the feedback loop four-fold so weaknesses could be named while there was still time to correct them, and no manager could bank a year of unspoken judgments.",
+      "Gave every new hire a structured 30-60-90 day plan aligned to team and company goals, replacing the ambiguity that favoritism feeds on with explicit checkpoints from the first week.",
+      "Required biweekly one-on-ones between every manager and each direct report, on the principle that access to your manager should be a schedule, not a favor. Now it was the same standing conversation whether or not you ever bought the coffee.",
+      "Built formal recognition on two channels, peer-to-peer and manager-to-employee, making acknowledgment public, specific, and attached to the work itself. It became an expectation of the manager's role rather than a prize won socially.",
     ],
     changed:
-      "The 32% gap moved from invisible to quantified, funded, and on a glide path to closure, and the monthly monitoring means new gaps now surface within thirty days instead of at the next lawsuit. It's initiative backed by regulator-grade methodology: find the systemic problem no one assigned, quantify it, convert it into funded executive action, and build the rhythm that keeps it solved.",
+      "Turnover fell by roughly five percentage points in the first cycle. More important, it kept falling, reaching about 17% by year five, a fifteen-point drop from the 32% baseline. Across five years of data the line didn't dip and revert, the signature of a novelty effect. It declined steadily, because structural changes compound where campaigns fade. The follow-up survey delivered the finding I keep coming back to: about 95% of employees said they preferred a professional culture. Read carelessly that looks like a rejection of the family they valued; read carefully it's the opposite. They weren't asking their colleagues to care less. They were asking for the machinery of fairness to be kept separate from the machinery of affection: clear feedback, earned recognition, and advancement you couldn't buy with closeness. Care that could be told apart from evaluation.",
     results: [
-      { stat: "32%", label: "compa-ratio equity gap identified and remediated via a funded 3-year plan" },
-      { stat: "Monthly", label: "adverse-impact monitoring with four-fifths rule testing" },
-      { stat: "95%", label: "payroll accuracy across all compensation programs" },
+      { stat: "32%", label: "annual turnover the warm “family” culture had learned to treat as normal" },
+      { stat: "32 → 17%", label: "voluntary turnover over five years, a sustained decline well past the first-cycle drop" },
+      { stat: "95%", label: "of surveyed employees preferred a professional culture: fairness told apart from affection" },
     ],
-    tools: ["Compa-ratio analysis", "Market benchmarking", "Four-fifths rule testing", "Morgan Stanley (equity admin)", "Excel"],
+    tools: ["Exit-interview & turnover analysis", "Quarterly performance reviews", "30-60-90 onboarding", "Biweekly 1:1s", "Peer & manager recognition"],
     note:
-      "This gap surfaced during routine quarterly payroll audits, which find exactly what routine processing is designed to miss.",
-    visualCaption: "Equity glide-path chart (fabricated sample data)",
-  },
-  {
-    slug: "recruiting-onboarding-pipeline",
-    order: 2,
-    featured: true,
-    eyebrow: "Recruiting",
-    title: "Nine Hires a Month, Three Hours to Productive",
-    summary:
-      "Requisitions were filling; the pipeline broke at the seam between recruiting and operations. I re-engineered day one from 8 hours to 3, with zero compliance gaps and perfect payroll starts.",
-    tags: ["Talent Acquisition", "Onboarding Operations", "New-Hire Compliance", "HRIS"],
-    problem:
-      "Recruiting doesn't end at the signed offer. It ends when the new hire is productive, paid correctly, and convinced they made the right choice. A pipeline moving nine hires a month has no slack for a broken handoff. The bottleneck wasn't sourcing; requisitions were filling. It was the seam between recruiting and operations. Day one was an 8-hour administrative marathon (I-9, E-Verify, California new-hire reporting, HRIS record creation, direct deposit, tax withholding, benefits deductions), all run sequentially, manually, and differently depending on who ran it. The candidate experience the ATS had carefully built collapsed at the finish line.",
-    call:
-      "I decided onboarding was a recruiting deliverable, not a back-office afterthought, and that day one should prove the company had its act together rather than undercut the offer the candidate had just accepted.",
-    built: [
-      "Re-engineered the day-one workflow end to end, cutting administrative time from 8 hours to 3 while keeping every compliance checkpoint intact: I-9, E-Verify, and California new-hire reporting on time, every hire.",
-      "Made payroll setup a recruiting deliverable, with direct deposit, withholding, and deductions configured and verified before the first payroll run, achieving 100% day-one payroll accuracy. (In an earlier role I ran this same standard as sole administrator across 40+ hires.)",
-      "Connected the funnel to the first 90 days, handing the pipeline directly into the structured 30-60-90 ramp so the investment in attracting each candidate wasn't abandoned the moment they signed.",
+      "A single-organization retrospective over a five-to-seven-year horizon. The employer is anonymized, quotes are paraphrased, and chart values are illustrative sample data; the cultural roots ran deeper than any single program cycle could fully reach.",
+    pullQuote: {
+      text: "They were loved, and uninformed. The exit interview had quietly become the organization's only honest performance review, delivered at the one moment it could no longer help.",
+      attribution: "From the analysis",
+    },
+    related: [
+      { slug: "purpose-or-paycheck", label: "What recognition actually buys" },
+      { slug: "raising-talent", label: "The same levers, run as a retention system" },
     ],
-    changed:
-      "The pipeline now reliably absorbs about 108 hires a year with a 3-hour day one, perfect payroll starts, and full new-hire reporting compliance, feeding a structured 30-60-90 ramp that turns new hires into contributors instead of early churn. Recruiting spend stopped leaking out the back of the funnel. I treat recruiting as a pipeline that ends at productivity, not at the offer letter.",
-    results: [
-      { stat: "~108/yr", label: "hires processed through a 3-hour day one" },
-      { stat: "8 → 3 hrs", label: "onboarding cycle time, down 62%" },
-      { stat: "100%", label: "day-one payroll accuracy, zero new-hire reporting gaps" },
+    visualCaption: "Turnover decline over five years (sample data)",
+    report: [
+      {
+        heading: "The setting",
+        paragraphs: [
+          "For six to seven years I worked in HR leadership at a mid-size firm where “family” was not a value printed on a wall but a description of daily life. Colleagues took care of one another, looked out for one another, and created a sense of safety most organizations spend fortunes trying to manufacture. It is important to state this plainly at the outset, because nothing that follows makes sense without it: the culture was not a facade. The warmth was real, and it was the best thing about the place.",
+          "It is precisely because the warmth was real that the numbers were so hard to explain. A place this protective should, on any conventional account, have held onto its people. It didn't.",
+        ],
+      },
+      {
+        heading: "The anomaly",
+        paragraphs: [
+          "Turnover ran about 32% a year at the outset. The “family” lost nearly a third of its members annually and had learned to treat that as normal. The exit interviews held the clue: across years of surveys, one word recurred more than any other, and that word was acknowledgment. Departing employees did not complain about their colleagues, their workload, or even, primarily, their pay. They said their work was never seen. They left a warm organization feeling invisible.",
+          "The paradox resolved in how managers understood kindness. Many believed, sincerely and in keeping with the culture, that taking care of an employee was the acknowledgment: warmth already communicated “I see how hard you work” without anything so blunt as praise needing to be said. But kindness and recognition are different instruments. Kindness is relational; it says you matter to me. Recognition is informational; it says your work matters, and here is where you stand. The organization had grown fluent in the first language and let the second atrophy. Employees were loved, and uninformed.",
+        ],
+      },
+      {
+        heading: "The mechanism",
+        paragraphs: [
+          "When formal recognition disappears, the demand for it does not. It goes underground. What I watched over those years was a workforce improvising a market for acknowledgment, and, as in most improvised markets, the currency became distorted. Because standing could not be earned through visible work, employees sought it through visible closeness: coffee bought for a manager, lunches attended, an extra measure of deference. The workforce gradually sorted into two camps. One invested in cultivating personal closeness with management; the other kept a professional distance and let the work speak. The second group's complaint, repeated in exit interview after exit interview, was not that networking existed, but that the relationship had come untethered from the work. If advancement flows through coffee rather than contribution, they asked, what exactly is the contribution for?",
+          "The distortion compounded at the managerial layer. Less experienced managers, unpracticed at separating flattery from performance, proved susceptible to those who courted them; in the worst cases, work produced by quiet high performers was credited to colleagues with better personal rapport, and promotion decisions inherited the bias where everyone could see it. The final casualty was the performance evaluation itself. In a culture where candor felt like unkindness, managers declined to name weaknesses, or, tellingly, even strengths. The annual review became a ceremony that transmitted no information, and employees discovered where they actually stood only when it was too late to act on it. The exit interview had become the organization's only honest performance review, administered at the one moment it could no longer help.",
+        ],
+        quotes: [
+          {
+            text: "If advancement flows through coffee rather than contribution, what exactly is the contribution for?",
+            attribution: "The recurring exit-interview complaint, paraphrased",
+          },
+        ],
+      },
+      {
+        heading: "The diagnosis",
+        paragraphs: [
+          "It would have been natural to attack the symptoms: discipline the favoritism, discourage the cliques, audit the promotions. My team and I concluded this would fail, because the symptoms shared a single root. The organization had no formal channels through which recognition and feedback could flow, so both had been privatized into personal relationships, and personal relationships reward closeness, not contribution. That is not a character flaw of any individual; it is what any system does when informal ties are the only infrastructure available.",
+          "We also accepted a constraint that shaped everything: a culture built over decades cannot be replaced by decree, and this one should not have been. Employees treasured it. The aim was not to dismantle the family culture but to build formal structure beneath it, giving feedback and recognition official channels, so warmth could go back to being warmth instead of doing a job it was never designed to do.",
+        ],
+      },
+      {
+        heading: "The intervention",
+        paragraphs: [
+          "We returned to fundamentals. Four instruments, none exotic, each chosen because it converts something informal and discretionary into something structural and guaranteed. Quarterly performance evaluations replaced the annual review, shortening the feedback loop by a factor of four, so weaknesses could be named while there was still time to correct them and no manager could bank a year of unspoken judgment. A 30-60-90 day plan for every new hire aligned their work to team and company goals, replacing ambiguity, the raw material of favoritism, with explicit checkpoints from the first week.",
+          "Biweekly one-on-ones made access to one's manager a schedule rather than a favor: an employee who never bought the coffee now had the same standing conversation as one who always did. And formal recognition ran along two channels, peer-to-peer and manager-to-employee, making acknowledgment public, specific, and attached to the work itself, an expectation of the manager's role rather than a prize employees competed for socially. Every one of the four did the same thing in a different register: it took something discretionary, whether feedback, access, credit, or recognition, and made it guaranteed.",
+        ],
+      },
+      {
+        heading: "Results, and their limits",
+        paragraphs: [
+          "Turnover fell by approximately five percentage points in the first cycle. I report it with the caveat we gave leadership at the time: we did not fully control turnover, and we knew we would not, because the cultural roots ran too deep for any single program cycle to reach. The more meaningful evidence arrived slowly. When we compared five years of turnover data, the line did not dip and revert, the signature of a novelty effect; it kept declining, reaching about 17% by year five, a fifteen-point fall from the 32% baseline. Structural changes, unlike campaigns, compound.",
+          "The follow-up survey supplied the finding I consider the heart of the case: roughly 95% of employees said they preferred a professional culture at work. Read carelessly, that looks like a repudiation of the family culture. Read carefully, it is nothing of the kind. Employees were not asking their colleagues to care less. They were asking for the machinery of fairness to be kept separate from the machinery of affection: clear feedback, earned recognition, and advancement that couldn't be bought with closeness. A professional culture, in their usage, meant a place where being seen did not have to be purchased.",
+        ],
+        charts: ["turnoverDecline"],
+      },
+      {
+        heading: "What the case teaches",
+        paragraphs: [
+          "A “family” culture is an asset with a maintenance requirement. Left unmonitored, its warmth will quietly annex functions it cannot perform: kindness stands in for feedback, closeness for merit, loyalty for engagement. And the organization will not notice, because everyone is being so nice. The failure mode is invisible precisely because it feels like virtue. The remedy is not less warmth but more structure: when acknowledgment is guaranteed, no one needs to court it, and the culture's genuine affection is freed from the suspicion that it is a currency.",
+          "The deepest lesson is about where to look. The organization's pathology was hiding inside its proudest trait, which is exactly where no one thinks to look. The instinct to audit our weaknesses is universal; the discipline to audit our strengths is rare. This case is an argument for acquiring it.",
+        ],
+        quotes: [
+          {
+            text: "They did not want less care. They wanted care that could be told apart from evaluation.",
+            attribution: "The case in one line",
+          },
+        ],
+      },
     ],
-    tools: ["Greenhouse (ATS)", "ADP Workforce Now (HRIS)", "I-9 / E-Verify", "CA new-hire reporting", "30-60-90 ramp"],
-    related: [{ slug: "purpose-or-paycheck", label: "What actually retains this workforce" }],
-    visualCaption: "Onboarding hours 8 to 3 chart (fabricated sample data)",
-  },
-  {
-    slug: "employee-relations-system",
-    order: 3,
-    featured: true,
-    eyebrow: "Employee Relations",
-    title: "Twenty-Five Cases a Month, Run as a Defensible System",
-    summary:
-      "At 25+ ER cases a month with about 10 subpoena responses layered on, there's no room for improvisation. I run employee relations as a system, with consistent intake, documentation, and dual-framework compliance, and a sustained zero-violation record.",
-    tags: ["Employee Relations", "Workplace Investigations", "Legal Response", "Compliance"],
-    problem:
-      "Employee relations is where HR's credibility is won or lost. Handle a case well and employees learn the system can be trusted; handle it badly and every future complaint goes to a lawyer instead of to HR. At 25+ cases a month, with roughly 10 monthly subpoena cases layered on top, volume breaks informal approaches. Cases handled from memory produce inconsistent outcomes, and inconsistent outcomes produce discrimination claims. Every case file is a potential exhibit, and California's employee-protection framework is among the least forgiving in the country.",
-    call:
-      "I decided the only way to run 25+ concurrent cases defensibly was to run them as a system, with consistent intake, consistent documentation, and consistent standards for resolution, so that any file pulled at random tells a complete and neutral story.",
-    built: [
-      "Managed a caseload of 25+ monthly matters as primary HR contact for 750+ employees, with documentation standards built for the possibility that any file could one day be read by opposing counsel.",
-      "Coordinated about 10 subpoena cases monthly, producing timely, complete, and compliant records, where HR administration meets litigation support and sloppy record-keeping becomes an organizational liability.",
-      "Resolved every case against both federal law and California's stricter standards (wage-and-hour, leave protections, anti-retaliation), applying whichever framework protects the employee more.",
-      "Standardized incident-reporting SOPs so cases enter the system uniformly rather than depending on who received the complaint.",
-    ],
-    changed:
-      "A caseload of 25+ monthly matters and about 10 monthly subpoena responses, all resolved on time and in compliance, sustained alongside compliance findings across FLSA, ACA, ERISA, and COBRA that fell from 12 to 3. Employee relations operates as a trusted, defensible function, not a liability generator. I carry a heavy, legally sensitive caseload with the documentation discipline of someone who assumes every file will be read in a deposition, because at roughly 10 subpoenas a month, some of them will be.",
-    results: [
-      { stat: "25+/mo", label: "ER cases managed intake to resolution" },
-      { stat: "~10/mo", label: "subpoena responses coordinated, compliant and on time" },
-      { stat: "Zero", label: "compliance violations sustained (federal and California)" },
-    ],
-    tools: ["Workplace investigations", "Subpoena / records production", "Incident-reporting SOPs", "Dual-framework compliance"],
-    note:
-      "Cases enter the system through standardized incident-reporting controls, giving uniform intake instead of ad-hoc handling.",
-    visualCaption: "Monthly caseload composition, 25 cases and ~10 subpoenas (sample data)",
   },
   {
     slug: "raising-talent",
-    order: 4,
+    order: 2,
     featured: true,
     eyebrow: "Talent Strategy",
     title: "Raising Talent, Not Headcount",
@@ -290,7 +302,7 @@ export const caseStudies: CaseStudy[] = [
     },
     related: [
       { slug: "purpose-or-paycheck", label: "The study this case extends" },
-      { slug: "recruiting-onboarding-pipeline", label: "Hiring done with a foundation" },
+      { slug: "price-of-belonging", label: "Recognition as a retention system" },
     ],
     visualCaption: "Headcount cascade: 725 to 528 to 703 (sample data)",
     report: [
@@ -367,7 +379,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "purpose-or-paycheck",
-    order: 5,
+    order: 3,
     featured: true,
     eyebrow: "People Research",
     title: "Purpose or Paycheck",
@@ -400,8 +412,8 @@ export const caseStudies: CaseStudy[] = [
       attribution: "Respondent E, paraphrased",
     },
     related: [
-      { slug: "compensation-pay-equity", label: "Pay as a signal, not just a number" },
-      { slug: "recruiting-onboarding-pipeline", label: "Where the workforce journey begins" },
+      { slug: "price-of-belonging", label: "When recognition goes missing" },
+      { slug: "raising-talent", label: "The same levers at workforce scale" },
     ],
     visualCaption: "Value distribution, satisfaction, and enrollment (sample data)",
     report: [
@@ -500,6 +512,24 @@ export function getCaseStudy(slug: string): CaseStudy | undefined {
 }
 
 /* ------------------------------------------------------------------ */
+/*  About Me — two selector slides, each with its own dedicated page    */
+/*  who-i-am -> video-scroll intro; how-i-work -> animated section      */
+/* ------------------------------------------------------------------ */
+
+export type AboutPanel = {
+  slug: string;
+  order: number;
+  /** Small label above the title in the panel. */
+  eyebrow: string;
+  title: string;
+};
+
+export const aboutPanels: AboutPanel[] = [
+  { slug: "who-i-am", order: 1, eyebrow: "About Me", title: "Who I Am" },
+  { slug: "how-i-work", order: 2, eyebrow: "About Me", title: "What I Do" },
+];
+
+/* ------------------------------------------------------------------ */
 /*  How I Think — essay drafts                                         */
 /* ------------------------------------------------------------------ */
 
@@ -548,25 +578,6 @@ export const essays: Essay[] = [
 export function getEssay(slug: string): Essay | undefined {
   return essays.find((e) => e.slug === slug);
 }
-
-/* ------------------------------------------------------------------ */
-/*  About / Contact                                                    */
-/* ------------------------------------------------------------------ */
-
-export const about = {
-  bio: [
-    "I'm an HR operations leader (PHR) who works at the intersection of people judgment and technical execution. As primary HR contact for a 750+ employee population across 15 pay groups and 5 departments, my scope spans compensation analytics and total rewards, high-volume recruiting and onboarding, employee relations and legal response, HR audit and internal controls, and full-lifecycle employee development.",
-    "What ties the work together is a habit of looking where no one else is looking, then building the system that answers the question: the compensation analysis that quantified a 32% equity gap, the density-first recovery that cut voluntary turnover from 31% to 12%, the survey that showed growth-focused programs more than doubled employee satisfaction. I work bilingually in English and Korean, and I run HR as systems, not events, with the documentation discipline of someone who assumes every file will one day be read in a deposition.",
-  ],
-  influenceStory: {
-    heading: "An influence story",
-    body: "In a service-award program, I caught a service-date calculation error that would have quietly given people the wrong recognition. Finding it was rigor; getting it fixed was influence. I raised it, made the case, and got the correction formally approved, even though it meant challenging a process people assumed was already correct. I'd rather be the person who pushes back and gets it right than the one who stays quiet and lets it ship.",
-  },
-  contact: {
-    heading: "Let's talk",
-    body: "The best way to reach me is by email. I'm happy to talk through any of the work here in more detail, with the confidential specifics filled in where appropriate.",
-  },
-};
 
 /* ------------------------------------------------------------------ */
 /*  Global privacy footnote                                            */
