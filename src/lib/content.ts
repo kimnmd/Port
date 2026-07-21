@@ -143,15 +143,15 @@ export const metrics: Metric[] = [
 
 export const howIWork: Principle[] = [
   {
-    title: "Follow what doesn't add up",
+    title: "Investigate Every Discrepancy",
     body: "The job description says process what's approved. I decided the figures that wouldn't reconcile were the real work, and went looking for the systemic problems no one assigned me.",
   },
   {
-    title: "Audit yourself first",
+    title: "Surface Risk Early",
     body: "Every discrepancy you find internally is one a regulator, plaintiff's attorney, or acquirer doesn't find later. I'd rather surface it, quantify it, and price it than carry unpriced risk.",
   },
   {
-    title: "Build monitoring, not just fixes",
+    title: "Monitor, Don't Just Fix",
     body: "A gap fixed once and never watched reopens silently. I build the standing rhythm that keeps the problem solved after the project ends: monthly testing, documented controls, pulse data.",
   },
 ];
@@ -168,7 +168,7 @@ export const caseStudies: CaseStudy[] = [
     eyebrow: "Culture",
     title: "The Price of Belonging",
     summary:
-      "A warm, close-knit “family” company was quietly losing almost a third of its people every year. The same word kept coming up in exit interviews: acknowledgment. There was no official way to get credit for your work, so it had turned into a game of who was close to the boss. I built simple, formal ways to give recognition and feedback back to everyone. Turnover dropped about five points the first year and kept falling, from 32% to 17% over five years, and 95% of employees said they wanted a more professional culture.",
+      "A warm, close-knit “family” company was quietly losing almost a third of its people every year. The same word kept coming up in exit interviews: acknowledgment. There was no official way to get credit for your work, so it had turned into a game of who was close to the boss. I built simple, formal ways to give recognition and feedback back to everyone. Turnover dropped about five percent the first year and kept falling, from 32% to 17% over five years, and 95% of employees said they wanted a more professional culture.",
     tags: ["Organizational Culture", "Retention", "Performance Management", "Change Management"],
     problem:
       "On paper, this made no sense. When people feel looked after at work, they usually stay. Here they didn't. It was a mid-size company with a real “family” culture, the kind where coworkers genuinely had each other's backs and you felt safe walking in every day. And yet about a third of the staff left every year, and everyone had gotten so used to it that it felt normal. The warmth wasn't fake, and that was the whole puzzle. It was the best thing about the place, which made the turnover impossible to explain. Then I read five years of exit interviews, and one word kept showing up: acknowledgment. People weren't leaving because they were angry at their coworkers or buried in work, or even, mostly, because of pay. They were leaving because they felt invisible.",
@@ -182,7 +182,7 @@ export const caseStudies: CaseStudy[] = [
       "Set up two clear ways to recognize people, peer-to-peer and manager-to-employee, so credit was public, specific, and tied to the actual work. Recognition became part of a manager's job, not a popularity prize.",
     ],
     changed:
-      "Turnover dropped about five points the first year. What mattered more is that it kept dropping, down to about 17% by year five, fifteen points below where we started at 32%. And it didn't bounce back the way a short-lived morale boost would. It just kept sliding down, because real structure sticks where feel-good campaigns fade. Then the follow-up survey gave me the result I still think about: about 95% of people said they'd rather have a professional culture. That sounds like they were rejecting the family they loved, but it's actually the opposite. They weren't asking their coworkers to care less. They just wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't get just by being close to someone. They wanted care they could tell apart from evaluation.",
+      "Turnover dropped about five percent the first year. What mattered more is that it kept dropping, down to about 17% by year five, fifteen percent below where we started at 32%. And it didn't bounce back the way a short-lived morale boost would. It just kept sliding down, because real structure sticks where feel-good campaigns fade. Then the follow-up survey gave me the result I still think about: about 95% of people said they'd rather have a professional culture. That sounds like they were rejecting the family they loved, but it's actually the opposite. They weren't asking their coworkers to care less. They just wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't get just by being close to someone. They wanted care they could tell apart from evaluation.",
     results: [
       { stat: "32%", label: "the yearly turnover this warm “family” culture had come to treat as normal" },
       { stat: "32 → 17%", label: "turnover over five years, a steady drop that held long after the first year" },
@@ -245,7 +245,7 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: "What happened",
         paragraphs: [
-          "Turnover dropped about five points the first year. I'll add the same caveat we gave leadership back then: we never fully controlled turnover and knew we wouldn't, because the roots ran too deep for one round of changes to reach. The better evidence showed up slowly. When we lined up five years of data, the line didn't dip and bounce back the way a short-lived boost would. It just kept dropping, down to about 17% by year five, fifteen points below where we started. Structure sticks; campaigns fade.",
+          "Turnover dropped about five percent the first year. I'll add the same caveat we gave leadership back then: we never fully controlled turnover and knew we wouldn't, because the roots ran too deep for one round of changes to reach. The better evidence showed up slowly. When we lined up five years of data, the line didn't dip and bounce back the way a short-lived boost would. It just kept dropping, down to about 17% by year five, fifteen percent below where we started. Structure sticks; campaigns fade.",
           "The follow-up survey gave me the result I keep coming back to: about 95% of people said they'd rather have a professional culture. Read quickly, that sounds like they were rejecting the family culture. Read closely, it's nothing of the sort. They weren't asking their coworkers to care less. They wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't buy with closeness. A “professional culture,” the way they meant it, was just a place where being seen didn't have to be bought.",
         ],
         charts: ["turnoverDecline"],
@@ -287,7 +287,7 @@ export const caseStudies: CaseStudy[] = [
       "Expanded benefits and wellbeing, more vacation and an Employee Assistance Program especially, to repair the burnout the crisis caused, because no performance standard fixes exhaustion.",
     ],
     changed:
-      "Voluntary turnover fell from 31% at the worst of the crisis to 12% after the pivot, a 19-point drop, more than sixty percent lower, landing below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten. And it did it without going back to mass hiring. It stopped the bleeding not by out-recruiting the competitor, but by becoming a place that was harder to leave.",
+      "Voluntary turnover fell from 31% at the worst of the crisis to 12% after the pivot, a 19 percent drop, more than sixty percent lower, landing below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten. And it did it without going back to mass hiring. It stopped the bleeding not by out-recruiting the competitor, but by becoming a place that was harder to leave.",
     results: [
       { stat: "31 → 12%", label: "voluntary turnover, down by more than sixty percent" },
       { stat: "97%", label: "headcount refilled by mass hiring, but the actual skill kept dropping" },
@@ -338,7 +338,7 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: "The result",
         paragraphs: [
-          "Voluntary turnover fell from 31% at the peak of the crisis to 12% after the pivot: a 19-point drop, more than sixty percent lower, and below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten.",
+          "Voluntary turnover fell from 31% at the peak of the crisis to 12% after the pivot: a 19 percent drop, more than sixty percent lower, and below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten.",
           "The cause deserves some honesty. The drop came after the full pivot, all six pieces together, and the case can't single out any one of them. What it can say is that the drop happened without going back to mass hiring and without trying to out-bid the competitor on offers. Some of the improvement is also just a healthier mix of people: the committed ones staying longer while the uncommitted ones leave through managed exits instead of quitting, which is exactly what a working performance system is supposed to do, not a side effect.",
         ],
         charts: ["turnover"],

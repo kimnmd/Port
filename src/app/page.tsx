@@ -65,9 +65,6 @@ export default function HomePage() {
                   <h3 className="mt-4 font-display text-xl font-semibold leading-snug text-fg">
                     {p.title}
                   </h3>
-                  <p className="mt-3 text-[15px] leading-relaxed text-fg-soft">
-                    {p.body}
-                  </p>
                 </div>
               </Reveal>
             ))}
