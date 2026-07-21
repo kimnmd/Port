@@ -156,7 +156,7 @@ function BeforeAfter({
 /* ---- 4a. Raising Talent: headcount cascade (line) --------------- */
 
 export function HeadcountCascadeChart() {
-  const pad = { l: 54, r: 26, t: 40, b: 44 };
+  const pad = { l: 62, r: 62, t: 40, b: 44 };
   const w = VB_W - pad.l - pad.r;
   const h = VB_H - pad.t - pad.b;
   const pts = [725, 528, 703];
