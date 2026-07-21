@@ -272,32 +272,32 @@ export const caseStudies: CaseStudy[] = [
     eyebrow: "Talent Strategy",
     title: "Raising Talent, Not Headcount",
     summary:
-      "A competitor poached 145 people and a contagion wave took 52 more, a 27% loss. Mass rehiring refilled the org chart to 97% but diluted capability until veterans spent their days training. The fix wasn't more hiring, it was raising the talent already there. Voluntary turnover fell from 31% to 12%.",
+      "A competitor poached 145 of our people, and that first wave dragged 52 more out the door, a 27% loss. We hired like crazy and refilled the org chart to 97%, but the new people were so green that our veterans spent all day training instead of working. The fix wasn't hiring more, it was building up the people we already had. Voluntary turnover fell from 31% to 12%.",
     tags: ["Talent Strategy", "Retention", "Workforce Planning", "Performance Systems"],
     problem:
-      "The company started with 725 employees. A competitor's targeted poaching campaign took 145 of them, one in five, and that first wave triggered a second. 52 more left in its wake, 197 departures in total, a 27% loss that dropped headcount to 528. The second wave is the important one, because the first wave caused it. Each exit signaled that outside options existed and were being taken, removed colleagues who made the work sustainable, and dumped their workload onto everyone left, a measured contagion multiplier of about 0.36. Sales stagnated as institutional knowledge walked out, morale dropped, and a workforce carrying the load of 725 with the hands of 528 began to burn out, threatening a third wave.",
+      "The company started with 725 people. A competitor ran a targeted poaching campaign and took 145 of them, one in five. And that first wave set off a second one: 52 more left in the aftermath, 197 gone in total, a 27% loss that dropped us to 528. The second wave is the one that matters, because the first wave caused it. Every person who left sent the same message to everyone still there, that other options were out there and people were taking them. It also pulled out coworkers who made the job manageable and dumped their work onto whoever stayed, so each departure spurred about a third of another one. Sales stalled as knowledge walked out the door, morale sank, and a workforce carrying the load of 725 with the hands of 528 started to burn out, which threatened a third wave.",
     call:
-      "Facing an accelerating spiral, HR first did the instinctive thing and mass-rehired: three agencies, every HR hand redirected to hiring, headcount rebuilt to 703. It hit the number the company could see while quietly degrading the one that mattered. So I made the call to reverse the direction of investment: stop chasing headcount and start raising the talent already in the building.",
+      "With the spiral picking up speed, HR did the instinctive thing first and hired in bulk: three agencies, every HR hand pulled onto recruiting, headcount rebuilt to 703. It hit the number everyone could see while quietly wrecking the one that actually mattered. So I made the call to flip the whole approach: stop chasing headcount and start building up the people already in the building.",
     built: [
-      "Defined KPIs so every role had a visible standard, because without defined expectations neither underperformance nor excellence is observable, and neither can be acted on.",
-      "Turned training from an ad-hoc burden absorbed by veterans into a heavily enforced, structured program with accountability for completion.",
-      "Invested in team events to rebuild the social fabric the poaching wave had torn, which the contagion had shown was a retention asset in its own right.",
-      "Differentiated rewards for top-performing managers and employees, making excellence visibly worth more than adequacy and signaling to the strongest performers, the ones most vulnerable to poaching, that staying pays.",
-      "Applied consistent discipline for those refusing to perform, closing the credibility loop: standards rewarded at the top but unenforced at the bottom aren't standards.",
-      "Expanded benefits and wellbeing, notably more vacation and an Employee Assistance Program, to repair the burnout the crisis produced, because performance standards can't fix exhaustion.",
+      "Set clear KPIs so every role had a visible standard, because if you never define what good looks like, you can't spot who's struggling or who's excelling, and you can't act on either.",
+      "Turned training from a random burden dumped on the veterans into a real, structured program that people were actually held accountable for finishing.",
+      "Invested in team events to rebuild the social glue the poaching had torn apart, which the contagion had already proven was a real reason people stayed.",
+      "Paid top-performing managers and employees noticeably more than average ones, so being great was visibly worth more than being okay, and the strongest people, the ones most likely to get poached next, could see that staying paid off.",
+      "Held people who refused to do the work to a consistent standard, because rewarding the top while ignoring the bottom means you don't really have a standard at all.",
+      "Expanded benefits and wellbeing, more vacation and an Employee Assistance Program especially, to repair the burnout the crisis caused, because no performance standard fixes exhaustion.",
     ],
     changed:
-      "Annualized voluntary turnover fell from 31% at the height of the crisis to 12% after the pivot, a 19-point drop, more than sixty percent in relative terms, landing below typical market rates. A company losing nearly one in three people a year by choice began keeping almost nine in ten. And it did this without returning to mass external hiring. It stopped the bleeding not by out-recruiting its poacher, but by making itself harder to poach from.",
+      "Voluntary turnover fell from 31% at the worst of the crisis to 12% after the pivot, a 19-point drop, more than sixty percent lower, landing below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten. And it did it without going back to mass hiring. It stopped the bleeding not by out-recruiting the competitor, but by becoming a place that was harder to leave.",
     results: [
-      { stat: "31 → 12%", label: "voluntary turnover, cut by more than sixty percent" },
-      { stat: "97%", label: "headcount refilled by mass hiring, yet capability kept falling" },
-      { stat: "0.36", label: "contagion multiplier: each poached exit spurred a third of another" },
+      { stat: "31 → 12%", label: "voluntary turnover, down by more than sixty percent" },
+      { stat: "97%", label: "headcount refilled by mass hiring, but the actual skill kept dropping" },
+      { stat: "0.36", label: "for every person poached, about a third of another one quit too" },
     ],
     tools: ["KPI design", "Structured training", "Differentiated rewards", "EAP & benefits design"],
     note:
-      "This case extends the Purpose or Paycheck study: the same visible, credible investment that doubled satisfaction is what kept people from walking out the door.",
+      "This case builds on the Purpose or Paycheck study: the same visible, believable investment that doubled satisfaction is what kept people from walking out the door.",
     pullQuote: {
-      text: "Headcount is not capability. We rebuilt 97% of the org chart and kept bleeding.",
+      text: "Headcount isn't capability. We rebuilt 97% of the org chart and kept bleeding.",
       attribution: "The central lesson",
     },
     related: [
@@ -307,64 +307,64 @@ export const caseStudies: CaseStudy[] = [
     visualCaption: "Headcount cascade: 725 to 528 to 703 (sample data)",
     report: [
       {
-        heading: "The poaching cascade",
+        heading: "How the losses snowballed",
         paragraphs: [
-          "The company entered the period with 725 employees. A competing firm ran a targeted poaching campaign, and 145 people, one in five, accepted offers and left. What followed wasn't independent attrition, it was a chain reaction: 52 more departed in the wake of the first wave, bringing total losses to 197, or 27% of the workforce, and dropping headcount to 528.",
-          "The secondary wave is the analytically important one, because the competitor's offers didn't cause it. The first wave did. Departures are informative events: each exit tells the people who remain that outside opportunities exist and are being taken, removes colleagues whose presence made the work sustainable, and transfers the departed workload onto those left behind. Here, each poached employee generated roughly a third of an additional voluntary departure, a measured contagion multiplier of about 0.36. Sales stagnated, morale dropped, and the remaining workforce, now carrying the load of 725 with the hands of 528, began to burn out.",
+          "The company started the period with 725 employees. A competitor ran a targeted poaching campaign, and 145 people, one in five, took offers and left. What came next wasn't a bunch of unrelated resignations, it was a chain reaction: 52 more left right behind the first group, bringing the total to 197 people, 27% of the workforce, and dropping headcount to 528.",
+          "The second wave is the one that really matters, because the competitor's offers didn't cause it, the first wave did. When people leave, it tells everyone who stays something: that other options are out there and coworkers are taking them. It also removes the people who made the work manageable and shifts their workload onto everyone left behind. Here, every person who got poached led to about a third of another person quitting on their own, a contagion multiplier of roughly 0.36. Sales stalled, morale dropped, and the people who remained, now doing the work of 725 with the hands of 528, started to burn out.",
         ],
         charts: ["departures"],
       },
       {
-        heading: "The instinctive response: mass rehiring",
+        heading: "The knee-jerk fix: hire like crazy",
         paragraphs: [
-          "Facing an accelerating loss spiral, HR mobilized what was, fairly, a firefighting operation. Three external agencies were engaged at once, and recruiting stopped being a specialist function: every member of the HR team was redirected to hiring. On its own terms it worked. Headcount rebuilt from 528 to 703, restoring 97% of the pre-crisis baseline.",
-          "Judged as a volume operation, that was fast and effective. Judged as a talent operation, it carried a flaw that wasn't visible until later: speed had been bought at the cost of selectivity. Hiring at that pace, through three parallel pipelines, with no foundation of defined competencies, a structured selection rubric, or calibrated interviewing, meant the organization optimized the one variable it could see, headcount, while silently degrading the one that mattered, the average capability of the people it hired.",
+          "With the losses speeding up, HR went into full firefighting mode, and fairly so. Three outside agencies got hired at once, and recruiting stopped being one person's job: everyone on the HR team was put on hiring. On its own terms, it worked. Headcount climbed back from 528 to 703, about 97% of where we'd started.",
+          "As a numbers operation, that was fast and it worked. As a talent operation, it had a flaw you couldn't see until later: all that speed came at the cost of being picky. Hiring that fast, through three pipelines at once, with no clear list of the skills we needed, no real scorecard, and no consistent interviewing, meant we nailed the one thing we could measure, headcount, while quietly lowering the one that mattered, how capable the average new hire actually was.",
         ],
       },
       {
         heading: "Refilled, but not rebuilt",
         paragraphs: [
-          "The consequences surfaced within months. With about a quarter of the workforce newly hired and a process that hadn't filtered for readiness, the training burden overwhelmed the productive core. Veterans, the survivors of the poaching wave and already stretched, began spending the majority of their days training new hires instead of doing their own jobs. The arithmetic is unforgiving: every hour a proven performer spends training is an hour of output lost from the top of the capability distribution to subsidize the bottom of it.",
-          "The financial signature followed. Rather than sales recovering as headcount recovered, the company bled from both ends: payroll climbed back toward pre-crisis levels while sales kept falling. Headcount, the metric the operation had targeted and hit, turned out to be a vanity indicator. The org chart said 703; productive capacity said far less. This is the principle the case takes as its title. Talent density, the concentration of people who can perform at standard without consuming others' capacity, is the variable that drives output, and it is entirely possible to restore headcount while destroying density.",
+          "The fallout showed up within months. With about a quarter of the staff brand new and a hiring process that hadn't screened for readiness, training swallowed the people who were actually productive. The veterans, the ones who'd survived the poaching and were already stretched thin, ended up spending most of their days training new hires instead of doing their own jobs. The math is brutal: every hour a proven performer spends training is an hour of their own work lost, borrowed from your best people to prop up your newest.",
+          "The money told the same story. Instead of sales recovering as headcount recovered, the company bled from both ends: payroll climbed back toward where it had been while sales kept falling. Headcount, the number the whole effort had chased and hit, turned out to be a vanity metric. The org chart said 703; the actual working capacity was much lower. That's the idea behind the case's title. What drives output isn't the number of people, it's talent density, how many of them can do the job at a high level without eating up everyone else's time, and it's completely possible to refill your headcount while destroying that.",
         ],
       },
       {
-        heading: "The pivot: raising talent over increasing it",
+        heading: "The pivot: build people, don't just add them",
         paragraphs: [
-          "The correction reversed the direction of investment: rather than acquiring more people, develop and sustain the ones already here. The program stood on six deliberately basic elements, the foundation the crisis response had skipped. Defined KPIs gave every role a visible standard, so under- and over-performance both became observable. Enforced training turned the hidden tax on veterans into a managed program with accountability. Team events rebuilt the social fabric the poaching had torn. Differentiated rewards made excellence visibly worth more than adequacy, telling the strongest performers, the ones most exposed to the next poach, that staying pays. Consistent discipline for those refusing to work closed the credibility loop. And expanded benefits, more vacation plus an Employee Assistance Program, repaired the burnout, because performance standards can't fix exhaustion.",
-          "The logic holds together in motivation-theory terms: defined KPIs create the line of sight from effort to outcome, differentiated rewards restore the equity balance high performers audit constantly, discipline makes both believable, and the wellbeing expansion repairs the hygiene floor of rest and support that sustained performance depends on. In the vocabulary of the Purpose or Paycheck study, the program raised the credibility of the motivators while easing the headwind.",
+          "The fix flipped the direction of the investment: instead of grabbing more people, develop and hold onto the ones already here. The program stood on six deliberately basic things, the groundwork the crisis hiring had skipped. Clear KPIs gave every role a visible standard, so both struggling and excelling became easy to see. Real, enforced training turned the hidden tax on veterans into a managed program people were accountable for. Team events rebuilt the social fabric the poaching had ripped up. Paying top performers noticeably more than average ones made being great visibly worth it, and told the strongest people, the ones most likely to get poached next, that staying paid off. Holding the people who refused to work to a consistent standard closed the loop, because a standard you only enforce at the top isn't a standard. And better benefits, more vacation plus an Employee Assistance Program, repaired the burnout, because no performance standard fixes exhaustion.",
+          "It holds together if you think about what actually motivates people: clear KPIs let everyone see how their effort connects to the result, paying top performers more restores the sense of fairness your best people are always quietly checking for, consistent discipline makes both of those believable, and the wellbeing piece rebuilds the basic floor of rest and support that steady performance depends on. In the language of the Purpose or Paycheck study, the program made the real motivators more believable while taking away the things dragging people down.",
         ],
       },
       {
         heading: "The result",
         paragraphs: [
-          "Annualized voluntary turnover fell from 31% at the height of the crisis to 12% after the pivot: a 19-point reduction, a decline of more than sixty percent in relative terms, and a landing point below typical market benchmarks. A company that had been losing nearly one in three people a year by choice began retaining almost nine in ten.",
-          "The causal story deserves care. The reduction followed the full pivot, all six elements together, and the case can't isolate any single one. What it can say is that the reduction came without a return to mass external hiring and without competing on acquisition. Some of the improvement also reflects a healthier composition: committed people staying longer while uncommitted ones exit through managed rather than voluntary channels, which is the intended shape of a working performance system, not a side effect.",
+          "Voluntary turnover fell from 31% at the peak of the crisis to 12% after the pivot: a 19-point drop, more than sixty percent lower, and below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten.",
+          "The cause deserves some honesty. The drop came after the full pivot, all six pieces together, and the case can't single out any one of them. What it can say is that the drop happened without going back to mass hiring and without trying to out-bid the competitor on offers. Some of the improvement is also just a healthier mix of people: the committed ones staying longer while the uncommitted ones leave through managed exits instead of quitting, which is exactly what a working performance system is supposed to do, not a side effect.",
         ],
         charts: ["turnover"],
       },
       {
         heading: "Three lessons",
         paragraphs: [
-          "First, turnover is a network event, not an individual one. The 52-person second wave shows that each departure is also a message and a burden transferred, so retention models that treat employees as independent decision-makers underestimate crisis losses by the size of the contagion multiplier. The practical implication: a poaching event is not the moment to start retention work on the poached, it is the moment to start it on everyone else.",
-          "Second, headcount is a lagging vanity metric and density is the operating variable. The company hit 97% headcount recovery while capability, sales, and morale kept declining, because unselective volume hiring converts payroll into training burden rather than output. The cost of hiring slower is visible and bounded; the cost of hiring diluted is hidden, compounding, and paid by your best people.",
-          "Third, retention is bought with the same currency as motivation. The pivot that cut turnover by two-thirds is, in substance, the same intervention family that doubled satisfaction in the Purpose or Paycheck study: visible, credible, differentiated investment in the people already present. Two independent measurements, one mechanism.",
+          "First, turnover is a group event, not an individual one. That 52-person second wave shows that every departure is also a message and a workload handed to someone else, so any retention model that treats people as independent decision-makers will underestimate crisis losses by the size of that ripple effect. The practical takeaway: a poaching hit isn't the moment to start retention work on the people who left, it's the moment to start it on everyone who's still there.",
+          "Second, headcount is a lagging vanity number and density is the real lever. The company hit 97% headcount recovery while skill, sales, and morale all kept sliding, because hiring fast without being picky turns payroll into a training burden instead of output. The cost of hiring slower is visible and has a limit; the cost of hiring watered-down is hidden, keeps compounding, and gets paid by your best people.",
+          "Third, you keep people with the same thing that motivates them. The pivot that cut turnover by two-thirds is basically the same set of moves that doubled satisfaction in the Purpose or Paycheck study: visible, believable, differentiated investment in the people already there. Two separate measurements, one mechanism.",
         ],
         quotes: [
           {
-            text: "It stopped the bleeding not by out-recruiting its poacher, but by making itself harder to poach from.",
+            text: "It stopped the bleeding not by out-recruiting the competitor, but by becoming harder to poach from.",
             attribution: "From the analysis",
           },
         ],
       },
       {
-        heading: "Conclusion",
+        heading: "The bottom line",
         paragraphs: [
-          "The case began with a company losing its people to a competitor and ends with a company that made itself the harder one to leave. In between is its contribution: the instinctive response to talent loss, replace the bodies fast, can deepen the wound it treats. Mass hiring restored the org chart and drained the organization, because output comes from the density of capability, not the count of employees, and density is exactly what unselective speed destroys.",
+          "The case starts with a company losing its people to a competitor and ends with a company that made itself the harder one to leave. In between is the whole point: the instinctive response to losing talent, replace the bodies fast, can make the wound worse. Mass hiring refilled the org chart and drained the company, because output comes from the density of skill, not the count of heads, and density is exactly what hiring fast and unselectively destroys.",
         ],
         quotes: [
           {
-            text: "When talent walks out the door, the question is not how fast the seats can be refilled. It is whether the company the next person joins is one the last person would have stayed at.",
+            text: "When talent walks out the door, the real question isn't how fast you can refill the seats. It's whether the company the next person is joining is one the last person would have stayed at.",
             attribution: "The case in one line",
           },
         ],
@@ -372,7 +372,7 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: "The limits",
         paragraphs: [
-          "This is a single-company retrospective without a control group, so the turnover reduction can't be cleanly apportioned among the six elements, and external conditions like the competitor's hiring appetite or a looser labor market may account for part of it. The figures are annualized voluntary rates and exclude involuntary separations, so the disciplinary program's compositional effect should be read as noted above. Sales and payroll effects are described directionally rather than in figures, and the training burden on veterans was observed rather than formally measured. A follow-up should track quality-of-hire for the mass-hired cohort, formalize the contagion analysis with exit-timing data, and test whether the reduction holds through the next external hiring cycle.",
+          "This is a look back at one company with no control group, so I can't cleanly split the turnover drop across the six pieces, and outside factors like the competitor's appetite for hiring or a looser job market may account for some of it. The numbers are annual voluntary turnover and leave out involuntary exits, so read the disciplinary program's effect on the mix with that in mind. The sales and payroll effects are described in direction rather than exact figures, and the training load on the veterans was something I saw firsthand rather than formally measured. A good follow-up would track the quality of the mass-hired group over time, pin down the contagion analysis with exit-timing data, and test whether the drop holds through the next hiring cycle.",
         ],
       },
     ],
@@ -384,31 +384,31 @@ export const caseStudies: CaseStudy[] = [
     eyebrow: "People Research",
     title: "Purpose or Paycheck",
     summary:
-      "I ran a mixed-method survey to settle whether pay or growth actually drives retention in an early-career workforce. Growth outpolled pay two to one, and motivator-side programs more than doubled satisfaction, from 19% to 42%, with no change to pay.",
+      "I ran a survey to settle a simple question: for younger workers, does pay or growth actually keep them around? Growth beat pay two to one, and the programs I built around growth more than doubled satisfaction, from 19% to 42%, without touching anyone's pay.",
     tags: ["People Research", "Retention", "Engagement", "Program Design"],
     problem:
-      "Popular discourse says Gen Z is motivated differently, that they prize purpose and flexibility over pay. But this same cohort entered the workforce facing living costs that classical theory says should anchor them to their paychecks. Both claims can't be fully true, and each maps onto one of the two most-taught motivation frameworks: Maslow's sequential hierarchy, where pay and security must be met first, versus Herzberg's two-factor theory, where pay only prevents dissatisfaction while growth and recognition create commitment. Underneath the theory sat a practical problem: baseline satisfaction was low, and I needed to know which lever actually moved retention before spending budget on it.",
+      "The popular story says Gen Z is wired differently, that they care more about purpose and flexibility than a paycheck. But this same group entered the workforce with living costs so high that the old theories say they should be glued to their paychecks. Both can't be fully true, and each one lines up with a classic motivation framework: Maslow, where pay and security have to come first, versus Herzberg, where pay only keeps people from being unhappy while growth and recognition are what actually build commitment. Underneath all the theory was a real, practical problem: satisfaction was low, and I needed to know which lever actually moved retention before spending money on it.",
     call:
-      "Rather than guess from a checkbox survey, I decided to run a real study and then act on it. I designed a two-phase, mixed-method investigation that deliberately separated what people say they value from what would actually make them leave, following Herzberg's own critical-incident method, and I committed to deploying and measuring interventions based on whatever the data said.",
+      "Instead of guessing from a checkbox survey, I decided to run a real study and then actually act on it. I set up a two-phase, mixed-method investigation designed to separate what people say they value from what would actually make them quit, borrowing Herzberg's own critical-incident method, and I committed to rolling out and measuring real programs based on whatever the data showed.",
     built: [
-      "Designed and ran a two-phase study: short in-depth interviews for the reasoning in people's own words, then the identical value question extended across the wider workforce to test whether the interview themes held at scale.",
-      "Separated stated value from exit trigger by design, so the analysis could tell a commitment driver apart from a dissatisfier, and read the results against both Maslow and Herzberg.",
-      "Surfaced the core findings: growth and learning was the top value at 50%, outpolling pay two to one even under real cost-of-living pressure, and early-career workers framed growth as deferred pay, the most reliable route to future income.",
-      "Deployed three motivator-side interventions from the findings: company-financed open courses, a tenure-gated education-reimbursement program for certifications and coursework (with retention terms so the benefit didn't subsidize the competition), and four employee resource groups.",
-      "Measured everything with pre and post pulse surveys, and stated the limits plainly: a single-company pilot without a control group.",
+      "Ran a two-phase study: short one-on-one interviews to hear people's reasoning in their own words, then the same core question sent out to the wider workforce to see if those themes held up at scale.",
+      "Separated 'what do you value' from 'what would make you leave' on purpose, so I could tell a real motivator apart from a basic dissatisfier, and read the results against both Maslow and Herzberg.",
+      "Surfaced the main finding: growth and learning was the top value at 50%, beating pay two to one even with real cost-of-living pressure, and younger workers saw growth as a down payment on future pay.",
+      "Rolled out three growth-focused programs from the findings: company-paid open courses, a tenure-gated tuition-reimbursement program for certifications and coursework (with retention terms so we weren't just training people for the competition), and four employee resource groups.",
+      "Measured everything with before-and-after pulse surveys, and was upfront about the limits: a single-company pilot with no control group.",
     ],
     changed:
-      "Satisfaction rose because the programs gave people exactly what they said they valued most: room to grow and learn. After the education-reimbursement benefit and the other growth-oriented offers launched, satisfaction more than doubled, from 19% to 42% in a single cycle, with no raise and no management overhaul. The credible, advancement-linked education benefit converted at 8%, double the generic course's 4%, exactly as the findings predicted: growth offers convert in proportion to how credibly they turn into earning power. Most tellingly, the gain reached far beyond the few who enrolled, which is the study's central insight: a funded, credible growth pathway signals to the entire workforce that the company invests in its people. Retention isn't bought with perks; it's earned by making that investment legible.",
+      "Satisfaction went up because the programs gave people exactly what they said they wanted most: room to grow and learn. After the tuition-reimbursement benefit and the other growth offers launched, satisfaction more than doubled, from 19% to 42% in a single cycle, with no raises and no shakeup of management. The credible, career-linked education benefit got twice the sign-ups of the generic course, 8% versus 4%, exactly like the findings predicted: growth offers land in proportion to how believably they turn into earning power. The most telling part is that the boost reached way beyond the handful of people who actually enrolled, which is the whole point: a funded, believable path to grow tells the entire workforce that the company is investing in them. You don't buy retention with perks; you earn it by making that investment obvious.",
     results: [
-      { stat: "19 → 42%", label: "satisfaction more than doubled after the growth-and-learning programs, with no raise" },
-      { stat: "2 : 1", label: "growth and learning outpolled pay as the most-valued factor" },
-      { stat: "4 → 8%", label: "program enrollment doubled when the growth offer became credible" },
+      { stat: "19 → 42%", label: "satisfaction more than doubled after the growth programs, without a single raise" },
+      { stat: "2 : 1", label: "growth and learning beat pay two to one as what people valued most" },
+      { stat: "4 → 8%", label: "sign-ups doubled once the growth offer was actually credible" },
     ],
     tools: ["In-depth interviews", "Pulse surveys", "Herzberg & Maslow analysis", "Education-benefit & ERG design"],
     note:
-      "A single-company pilot study. Quotes are paraphrased to protect anonymity, and no identifying respondent details are included. Chart values use sample data.",
+      "A single-company pilot. The quotes are paraphrased to keep people anonymous, with no identifying details, and the chart numbers are sample data.",
     pullQuote: {
-      text: "Stronger skills translate into higher earnings, so I don't prioritize pay today. I know it will rise as I keep building myself.",
+      text: "Better skills mean better pay down the line, so I'm not focused on pay right now. I know it'll come as I keep building myself.",
       attribution: "Respondent E, paraphrased",
     },
     related: [
@@ -420,29 +420,29 @@ export const caseStudies: CaseStudy[] = [
       {
         heading: "The question",
         paragraphs: [
-          "Popular discourse says this generation is motivated differently, that it prizes purpose and flexibility over pay. Yet the same cohort entered the workforce under historically high living costs, which classical theory says should anchor people to their paychecks. Both claims can't be fully true, and each maps onto one of the two most-taught motivation frameworks in HR.",
-          "Maslow's hierarchy holds that needs are sequential: pay that covers living and stable employment has to be reasonably met before belonging, esteem, and growth can motivate. Herzberg's two-factor theory holds the opposite structure. Hygiene factors like pay and working conditions can only prevent dissatisfaction, while only motivators like achievement, recognition, and growth create real commitment.",
-          "So the question was direct. Does an early-career workforce follow Maslow's sequence, where pay and security must be satisfied before culture and purpose can drive retention, or Herzberg's two factors, where pay only prevents departure while growth, recognition, and relationships drive commitment?",
+          "The popular story says this generation is motivated differently, that they care more about purpose and flexibility than pay. But the same group walked into the workforce facing some of the highest living costs in memory, which the old theories say should tie people tightly to their paychecks. Both can't be fully true, and each one lines up with one of the two most-taught motivation frameworks in HR.",
+          "Maslow's hierarchy says needs come in order: pay that covers the bills and a stable job have to be reasonably handled before belonging, esteem, and growth can motivate anyone. Herzberg's two-factor theory says it works the other way around. Things like pay and working conditions can only keep people from being unhappy, while the real motivators, achievement, recognition, growth, are what create actual commitment.",
+          "So the question was simple. Does a young workforce follow Maslow's order, where pay and security have to be met before culture and purpose can keep people, or Herzberg's split, where pay only stops people from leaving while growth, recognition, and relationships are what make them stay?",
         ],
       },
       {
         heading: "How the study worked",
         paragraphs: [
-          "The study ran in two phases. First, employees across a range of roles sat for short in-depth interviews, built around three questions: which of five factors they value most (pay, benefits, a good manager and coworkers, growth and learning, or flexibility), why, and which factor, if it worsened, would most likely make them leave. Then the identical value question went out to the wider workforce to test whether the interview themes held at scale.",
-          "The design deliberately separated what people say they value from what would actually make them leave, following Herzberg's own critical-incident method. That separation earned its keep: in several cases the open-ended 'why' reversed the apparent meaning of the checkbox answer.",
+          "The study ran in two phases. First, employees from a bunch of different roles sat down for short one-on-one interviews built around three questions: which of five things they value most (pay, benefits, a good manager and coworkers, growth and learning, or flexibility), why, and which one, if it got worse, would most likely push them to leave. Then the same 'what do you value most' question went out to the whole workforce to see if the interview themes held up at scale.",
+          "The design deliberately kept 'what do you value' separate from 'what would make you leave,' following Herzberg's own critical-incident method. That separation earned its keep: in several cases, the open-ended 'why' completely flipped the meaning of the checkbox answer.",
         ],
       },
       {
-        heading: "What people value",
+        heading: "What people said they valued",
         paragraphs: [
-          "Growth and learning was the most-chosen value at 50%, well ahead of pay at 25%, manager and coworker quality at 12%, flexibility at 10%, and benefits at just 3%, as the ring above shows. There is a classification wrinkle that matters to the verdict. Under a strict Herzberg reading, relationships are a hygiene factor, which puts the pure-motivator share at 50%, growth alone. But interviewees who chose manager and coworker quality framed it as a growth channel, a source of learning and a condition for growing together, which lifts the motivator-leaning share to 62%. Either way, growth alone outpolls pay two to one, even in a workforce under real cost-of-living pressure.",
+          "Growth and learning was the most-picked value at 50%, well ahead of pay at 25%, a good manager and coworkers at 12%, flexibility at 10%, and benefits at just 3%, as the ring above shows. There's one wrinkle worth flagging. Under a strict Herzberg reading, relationships count as a hygiene factor, which puts the pure-motivator share at 50%, growth on its own. But the people who picked manager and coworker quality described it as a way to grow, a source of learning and a condition for growing together, which bumps the motivator-leaning share up to 62%. Either way, growth by itself beats pay two to one, even in a workforce feeling real cost-of-living pressure.",
         ],
       },
       {
-        heading: "Value and exit are different ladders",
+        heading: "What you value and what makes you quit are two different things",
         paragraphs: [
-          "The clearest two-factor pattern came from one of the more tenured respondents. Asked what they value most, they described continuous learning and mastery, growth in order to contribute and to be a better person for their family. Asked what would make them leave, they answered in a single line.",
-          "Value and exit lived on different ladders. Growth drove commitment, while a broken working relationship, a hygiene factor, was the exit trigger. Another respondent showed the same shape with growth itself: content on every other factor, they said they would still start looking if their opportunities to grow dried up, a motivator working exactly as the commitment anchor Herzberg predicts.",
+          "The clearest example came from one of the longer-tenured people. Asked what they valued most, they talked about constant learning and getting better at their craft, growing so they could contribute more and be a better person for their family. Asked what would make them leave, they answered in one line.",
+          "What you value and what makes you leave lived on two different ladders. Growth is what kept them committed, while a broken working relationship, a basic hygiene factor, was the thing that would push them out. Another person showed the same split with growth itself: happy with everything else, they said they'd still start job-hunting if their chances to grow dried up, a motivator working exactly like the commitment anchor Herzberg describes.",
         ],
         quotes: [
           {
@@ -452,17 +452,17 @@ export const caseStudies: CaseStudy[] = [
         ],
       },
       {
-        heading: "Growth as deferred pay",
+        heading: "Growth is really just future pay",
         paragraphs: [
-          "The most important response came from an early-career employee who chose growth and learning, but whose reasoning reclassified the answer. They were absorbing as much as they could now, confident that stronger skills would translate into higher earnings later, so pay simply wasn't the priority today.",
-          "On paper that is a motivator answer. Underneath, it is a compensation strategy on a delay: growth chosen as the most reliable route to future pay. A checkbox survey would have coded this person as purpose-driven and been wrong. For early-career workers the two ladders are joined at the top, because skill-building is how they negotiate future earnings.",
+          "The most important answer came from a younger employee who picked growth and learning, but whose reasoning changed what that answer meant. They were soaking up as much as they could right now, confident that better skills would turn into better pay later, so pay just wasn't the priority today.",
+          "On paper, that's a motivator answer. Underneath, it's a pay strategy on a delay: they chose growth because it's the most reliable path to more money later. A checkbox survey would have filed this person under 'purpose-driven' and gotten it wrong. For younger workers the two ladders are joined at the top, because building skills is how they bargain for future pay.",
         ],
       },
       {
-        heading: "The environment can switch motivation off",
+        heading: "A bad environment can switch motivation off",
         paragraphs: [
-          "Two people, answering independently, described not what motivates them but what happened to motivation they used to have.",
-          "Chronic operational chaos, a failed hygiene environment, had extinguished a growth orientation the employee walked in with. A second respondent named the result: when neither pay nor management credibility holds, people retreat to the one thing the job still reliably transacts in. This reframes the study's pay-first answers. At least some of them are not pay-motivated people, they are demotivated people expressing it as pay. The choice of pay can be a symptom rather than a preference.",
+          "Two people, answering separately, described not what motivates them but what had happened to the motivation they used to have.",
+          "Constant operational chaos, a broken-down work environment, had killed the drive to grow that the employee had walked in with. A second person named the result: when neither the pay nor the management is holding up, people fall back on the one thing the job still reliably delivers. That reframes the study's pay-first answers. At least some of them aren't pay-motivated people at all, they're worn-down people expressing it as pay. Sometimes picking pay is a symptom, not a preference.",
         ],
         quotes: [
           {
@@ -476,31 +476,31 @@ export const caseStudies: CaseStudy[] = [
         ],
       },
       {
-        heading: "The interventions",
+        heading: "What I rolled out",
         paragraphs: [
-          "The findings pointed at the motivator side, so that is where I acted, with three programs. First, company-financed open courses, free and voluntary, with a light steer toward role-relevant skills. Second, an education-reimbursement benefit for employees past one year of tenure: professional certifications and coursework at recognized institutions, at company expense, with retention terms attached so the benefit wouldn't simply subsidize the competition. Third, an employee resource group program, targeting the belonging and peer-learning channel that a quarter of interviewees ranked highly.",
-          "The retention terms on the education benefit weren't incidental. They came straight from the study: in a workforce that pursues growth partly as a route to market value, an education benefit with no strings subsidizes whoever hires your people next.",
+          "The findings pointed at the motivator side, so that's where I acted, with three programs. First, company-paid open courses, free and voluntary, with a gentle nudge toward job-relevant skills. Second, a tuition-reimbursement benefit for people past their first year: professional certifications and coursework at recognized schools, on the company's dime, with retention terms attached so it wouldn't just subsidize the competition. Third, an employee resource group program, aimed at the belonging and peer-learning that a quarter of interviewees ranked highly.",
+          "The retention terms on the education benefit weren't an afterthought. They came straight out of the study: in a workforce that chases growth partly to raise its market value, a no-strings education benefit just pays to train the people who'll hire your employees next.",
         ],
       },
       {
         heading: "The results",
         paragraphs: [
-          "The open courses drew about 4% of the workforce, right at the documented industry baseline for voluntary learning benefits. The education-reimbursement program drew about 8%, double the open-course rate, even though it was harder to qualify for and carried binding conditions. Higher barriers, double the uptake. The variable that changed wasn't generosity, it was credibility and portability: a recognized certification within your job scope carries visible market value, which is exactly the kind of growth the early-career respondents said they wanted.",
-          "Then the pulse surveys. Satisfaction rose from 19% to 42% in a single cycle, more than doubling, with no change to pay. The baseline is a finding in itself: fewer than one in five people reported satisfaction beforehand, which matches the interviews describing motivation that was actively suppressed. The rise is dramatic for one cycle, and it reached far beyond the few who actually enrolled, which is the study's most useful insight for practice. A funded, credible growth pathway signals to the entire workforce that the company invests in its people, and the message lands more widely than the programs are used.",
+          "The open courses drew about 4% of the workforce, right at the known industry baseline for voluntary learning benefits. The tuition-reimbursement program drew about 8%, double that, even though it was harder to qualify for and came with binding conditions. Higher bar, twice the sign-ups. What changed wasn't how generous it was, it was how credible and portable: a recognized certification in your field has visible market value, which is exactly the kind of growth the younger employees said they wanted.",
+          "Then the pulse surveys. Satisfaction rose from 19% to 42% in a single cycle, more than doubling, with no change to pay. The starting point is a finding on its own: fewer than one in five people said they were satisfied beforehand, which matches the interviews describing motivation that had been actively ground down. The jump is big for one cycle, and it reached far beyond the few who actually enrolled, which is the study's most useful lesson for practice. A funded, believable path to grow tells the whole workforce that the company is investing in its people, and that message spreads much wider than the programs actually get used.",
         ],
         charts: ["enrollment", "satisfaction"],
       },
       {
         heading: "What it means",
         paragraphs: [
-          "Set against the two theories, the evidence downgrades Maslow from a gate to a gradient. Pay inadequacy didn't lock motivation out, it taxed it: a quarter of the workforce answered pay-first, the most distressed people collapsed into transactional postures, and the non-credible course offer converted at only 4%. But motivators that credibly compounded into future income cleared the bar anyway. Herzberg's two-factor structure holds in outline, with one amendment: for this workforce the dominant motivator drew its force precisely from its link to future pay, so the two ladders are interwoven rather than separate.",
-          "And both theories are quiet on the mechanism the data insists on most. Compensation and benefits operate as a language, a continuous signal of whether the relationship is mutual investment or extraction, and a workforce reads that signal collectively, well beyond the people who use any given program. Stated in one line: loyalty here hasn't disappeared, it has been repriced. It isn't payable in tenure and gratitude, and it isn't purchasable with perks. It is exchanged for credible investment in the employee's own trajectory.",
+          "Set against the two theories, the evidence knocks Maslow down from a gate to more of a dial. Low pay didn't lock motivation out, it taxed it: a quarter of the workforce answered pay-first, the most stressed-out people collapsed into pure transaction mode, and the non-credible course offer only converted at 4%. But motivators that believably turned into future income cleared the bar anyway. Herzberg's two-factor structure basically holds, with one tweak: for this workforce the biggest motivator got its power precisely from its link to future pay, so the two ladders are woven together rather than separate.",
+          "And both theories are quiet on the thing the data keeps pointing at. Pay and benefits work like a language, a constant signal of whether the relationship is a mutual investment or just extraction, and a workforce reads that signal together, far beyond the people who use any one program. In one line: loyalty here hasn't disappeared, it's been repriced. You can't pay for it in tenure and gratitude, and you can't buy it with perks. You earn it by credibly investing in where the employee is trying to go.",
         ],
       },
       {
         heading: "The limits",
         paragraphs: [
-          "The claims are bounded, and worth stating plainly. This is a single-company pilot without a control group, so the satisfaction gain can't be cleanly attributed to any one intervention or separated from other concurrent changes. The two education programs differed in eligibility and structure as well as credibility, so their comparison is suggestive rather than proof. Satisfaction is a leading indicator, not retention, and enrollment measures uptake, not completion. The honest summary is that the work moved the workforce from severely distressed to genuinely mixed, a strong trajectory rather than a finished repair, which is exactly why the follow-up round matters.",
+          "The claims have limits, and they're worth stating plainly. This is a single-company pilot with no control group, so the satisfaction jump can't be cleanly pinned on any one program or separated from other things happening at the same time. The two education programs differed in who could join and how they were built, not just in credibility, so comparing them is suggestive, not proof. Satisfaction is an early indicator, not retention itself, and sign-ups measure who started, not who finished. The honest summary: the work moved the workforce from badly struggling to genuinely mixed, a strong trajectory rather than a finished fix, which is exactly why the follow-up round matters.",
         ],
       },
     ],
