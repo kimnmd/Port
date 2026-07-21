@@ -48,7 +48,7 @@ export default function HomePage() {
       {/* How I work */}
       <section className="border-t border-hair bg-soft py-20 sm:py-24">
         <Container>
-          <Reveal className="max-w-2xl">
+          <Reveal className="mx-auto max-w-2xl text-center">
             <Eyebrow>How I work</Eyebrow>
             <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
               Three principles I keep coming back to.
@@ -58,7 +58,7 @@ export default function HomePage() {
           <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
             {howIWork.map((p, i) => (
               <Reveal key={p.title} delay={i * 90}>
-                <div className="flex h-full flex-col rounded-2xl border border-hair bg-canvas p-7">
+                <div className="flex h-full flex-col items-center rounded-2xl border border-hair bg-canvas p-7 text-center">
                   <span className="font-display text-2xl font-semibold text-accent">
                     0{i + 1}
                   </span>
