@@ -182,11 +182,11 @@ export const caseStudies: CaseStudy[] = [
       "Set up two clear ways to recognize people, peer-to-peer and manager-to-employee, so credit was public, specific, and tied to the actual work. Recognition became part of a manager's job, not a popularity prize.",
     ],
     changed:
-      "Turnover started dropping in the very first year. What mattered more is that it kept dropping, falling from 32% all the way down to about 17% by year five. And it didn't bounce back the way a short-lived morale boost would. It just kept sliding down, because real structure sticks where feel-good campaigns fade. Then the follow-up survey gave me the result I still think about: about 95% of people said they'd rather have a professional culture. That sounds like they were rejecting the family they loved, but it's actually the opposite. They weren't asking their coworkers to care less. They just wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't get just by being close to someone. They wanted care they could tell apart from evaluation.",
+      "The turnover came down, and it kept coming down. It started falling in the first year and never really stopped: over five years it went from about 32% a year to about 17%. Just as important, it never bounced back the way a short-lived morale boost would. The drop held steady year after year, because real structure lasts where feel-good campaigns fade. Then the follow-up survey gave me the result I still think about: about 95% of people said they'd rather have a professional culture. That sounds like they were rejecting the family they loved, but it's actually the opposite. They weren't asking their coworkers to care less. They just wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't get just by being close to someone. They wanted care they could tell apart from evaluation.",
     results: [
-      { stat: "32%", label: "the yearly turnover this warm “family” culture had come to treat as normal" },
-      { stat: "32% → 17%", label: "turnover over five years, a steady drop that held long after the first year" },
-      { stat: "95%", label: "of employees said they'd rather have a professional culture, fairness kept separate from friendship" },
+      { stat: "32% → 17%", label: "yearly turnover over five years, a steady drop that held long after the first year" },
+      { stat: "4×", label: "more feedback, once quarterly reviews replaced the annual one" },
+      { stat: "95%", label: "of employees said they'd rather have a professional culture" },
     ],
     tools: ["Exit-interview & turnover analysis", "Quarterly performance reviews", "30-60-90 onboarding", "Biweekly 1:1s", "Peer & manager recognition"],
     note:
