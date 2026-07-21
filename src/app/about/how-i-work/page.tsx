@@ -146,12 +146,12 @@ export default function HowIWorkPage() {
   }[] = [
     { icon: <Users />, value: 750, label: "Employees supported", suffix: "+" },
     { icon: <Wallet />, value: 150, label: "Payrolls processed", suffix: "+" },
-    { icon: <TrendingDown />, text: "32 → 17%", label: "Turnover cut over five years" },
+    { icon: <TrendingDown />, text: "32% → 17%", label: "Turnover cut over five years" },
     { icon: <ShieldCheck />, text: "Quarterly", label: "Payroll audits conducted" },
     { icon: <UserPlus />, value: 21, label: "Average days to fill a role", suffix: "" },
     { icon: <GraduationCap />, value: 5, label: "Training sessions held annually", suffix: "" },
     { icon: <Layers />, value: 3, label: "HRIS platforms integrated", suffix: "" },
-    { icon: <TrendingUp />, value: 42, label: "Employee satisfaction, up from 19%", suffix: "%" },
+    { icon: <TrendingUp />, text: "19% → 42%", label: "Employee satisfaction more than doubled" },
   ];
 
   return (
