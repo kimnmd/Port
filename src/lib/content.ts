@@ -127,7 +127,7 @@ export const metrics: Metric[] = [
     label: "compa-ratio pay-equity gap identified and remediated via a funded 3-year plan",
   },
   {
-    display: "32 → 17%",
+    display: "32% → 17%",
     label: "voluntary turnover cut over five years by rebuilding earned recognition",
   },
   {
@@ -136,7 +136,7 @@ export const metrics: Metric[] = [
     label: "employee population supported as primary HR contact",
   },
   {
-    display: "19 → 42%",
+    display: "19% → 42%",
     label: "employee satisfaction more than doubled by growth-focused programs",
   },
 ];
@@ -185,7 +185,7 @@ export const caseStudies: CaseStudy[] = [
       "Turnover dropped about five percent the first year. What mattered more is that it kept dropping, down to about 17% by year five, fifteen percent below where we started at 32%. And it didn't bounce back the way a short-lived morale boost would. It just kept sliding down, because real structure sticks where feel-good campaigns fade. Then the follow-up survey gave me the result I still think about: about 95% of people said they'd rather have a professional culture. That sounds like they were rejecting the family they loved, but it's actually the opposite. They weren't asking their coworkers to care less. They just wanted fairness kept separate from friendship: honest feedback, recognition you earned, and promotions you couldn't get just by being close to someone. They wanted care they could tell apart from evaluation.",
     results: [
       { stat: "32%", label: "the yearly turnover this warm “family” culture had come to treat as normal" },
-      { stat: "32 → 17%", label: "turnover over five years, a steady drop that held long after the first year" },
+      { stat: "32% → 17%", label: "turnover over five years, a steady drop that held long after the first year" },
       { stat: "95%", label: "of employees said they'd rather have a professional culture, fairness kept separate from friendship" },
     ],
     tools: ["Exit-interview & turnover analysis", "Quarterly performance reviews", "30-60-90 onboarding", "Biweekly 1:1s", "Peer & manager recognition"],
@@ -289,7 +289,7 @@ export const caseStudies: CaseStudy[] = [
     changed:
       "Voluntary turnover fell from 31% at the worst of the crisis to 12% after the pivot, a 19 percent drop, more than sixty percent lower, landing below the typical rate for the market. A company that had been losing almost one in three people a year by choice started keeping almost nine in ten. And it did it without going back to mass hiring. It stopped the bleeding not by out-recruiting the competitor, but by becoming a place that was harder to leave.",
     results: [
-      { stat: "31 → 12%", label: "voluntary turnover, down by more than sixty percent" },
+      { stat: "31% → 12%", label: "voluntary turnover, down by more than sixty percent" },
       { stat: "97%", label: "headcount refilled by mass hiring, but the actual skill kept dropping" },
       { stat: "0.36", label: "for every person poached, about a third of another one quit too" },
     ],
@@ -400,9 +400,9 @@ export const caseStudies: CaseStudy[] = [
     changed:
       "Satisfaction went up because the programs gave people exactly what they said they wanted most: room to grow and learn. After the tuition-reimbursement benefit and the other growth offers launched, satisfaction more than doubled, from 19% to 42% in a single cycle, with no raises and no shakeup of management. The credible, career-linked education benefit got twice the sign-ups of the generic course, 8% versus 4%, exactly like the findings predicted: growth offers land in proportion to how believably they turn into earning power. The most telling part is that the boost reached way beyond the handful of people who actually enrolled, which is the whole point: a funded, believable path to grow tells the entire workforce that the company is investing in them. You don't buy retention with perks; you earn it by making that investment obvious.",
     results: [
-      { stat: "19 → 42%", label: "satisfaction more than doubled after the growth programs, without a single raise" },
+      { stat: "19% → 42%", label: "satisfaction more than doubled after the growth programs, without a single raise" },
       { stat: "2 : 1", label: "growth and learning beat pay two to one as what people valued most" },
-      { stat: "4 → 8%", label: "sign-ups doubled once the growth offer was actually credible" },
+      { stat: "4% → 8%", label: "sign-ups doubled once the growth offer was actually credible" },
     ],
     tools: ["In-depth interviews", "Pulse surveys", "Herzberg & Maslow analysis", "Education-benefit & ERG design"],
     note:
