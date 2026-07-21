@@ -143,15 +143,15 @@ export const metrics: Metric[] = [
 
 export const howIWork: Principle[] = [
   {
-    title: "What doesn't add up is the real work",
+    title: "Follow what doesn't add up",
     body: "The job description says process what's approved. I decided the figures that wouldn't reconcile were the real work, and went looking for the systemic problems no one assigned me.",
   },
   {
-    title: "Run the audit on yourself first",
+    title: "Audit yourself first",
     body: "Every discrepancy you find internally is one a regulator, plaintiff's attorney, or acquirer doesn't find later. I'd rather surface it, quantify it, and price it than carry unpriced risk.",
   },
   {
-    title: "Build the monitoring, not just the fix",
+    title: "Build monitoring, not just fixes",
     body: "A gap fixed once and never watched reopens silently. I build the standing rhythm that keeps the problem solved after the project ends: monthly testing, documented controls, pulse data.",
   },
 ];

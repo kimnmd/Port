@@ -65,10 +65,8 @@
     font-variant-ligatures: none;
   }
 
-  /* Display serif (Fraunces): let optical sizing follow the font size so
-     small display text (quotes, stats) keeps calm, conventional letterforms
-     instead of the ornate large-size "f"/"j" curls. Ligatures off site-wide
-     via the body rule above. */
+  /* Display serif (Source Serif 4): optical sizing follows font size, and
+     ligatures stay off site-wide (see the body rule) for plain letterforms. */
   .font-display {
     font-optical-sizing: auto;
     font-variant-ligatures: none;
