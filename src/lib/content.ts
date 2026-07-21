@@ -127,8 +127,8 @@ export const metrics: Metric[] = [
     label: "compa-ratio pay-equity gap identified and remediated via a funded 3-year plan",
   },
   {
-    display: "31 → 12%",
-    label: "voluntary turnover cut by a density-first talent recovery",
+    display: "32 → 17%",
+    label: "voluntary turnover cut over five years by rebuilding earned recognition",
   },
   {
     count: 750,
