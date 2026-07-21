@@ -42,7 +42,11 @@ export function MetricsBar() {
             opacity: active ? 1 : 0,
           }}
         >
-          <span className="font-display text-4xl font-semibold leading-none tracking-tight text-accent sm:text-5xl">
+          <span
+            className={`whitespace-nowrap font-display font-semibold leading-none tracking-tight text-accent ${
+              typeof m.count === "number" ? "text-4xl sm:text-5xl" : "text-3xl sm:text-4xl"
+            }`}
+          >
             {typeof m.count === "number" ? (
               <>
                 <CountUp to={m.count} run={active} />
