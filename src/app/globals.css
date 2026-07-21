@@ -59,7 +59,10 @@
     background-color: var(--bg);
     color: var(--fg);
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+    /* Keep kerning but turn off ligatures site-wide so "fi/ff/fl" never join
+       into the fancy glyphs that made the "f" look malformed. */
+    text-rendering: auto;
+    font-variant-ligatures: none;
   }
 
   /* Display serif (Fraunces): turn off the fancy fi/ff ligatures and pin a

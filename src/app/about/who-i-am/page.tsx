@@ -36,7 +36,7 @@ export default function WhoIAmPage() {
               <div className="mt-8 space-y-5 text-lg leading-[1.75] text-fg-soft">
                 <p>
                   I&rsquo;m an HR operations leader who works where people and numbers meet. As the
-                  primary HR contact for a workforce of more than 750 across 15 pay groups and five
+                  primary HR contact for a workforce of more than 750 employees across 15 pay groups and five
                   departments, I run the full function: compensation and total rewards, high-volume
                   recruiting and onboarding, employee relations and legal response, audits and
                   internal controls, and development across the whole employee lifecycle.
