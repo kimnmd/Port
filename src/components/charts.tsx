@@ -551,10 +551,10 @@ export function TurnoverDeclineChart() {
       <text x={x(0)} y={y(32) - 14} textAnchor="middle" fontSize={16} fontWeight={700} fill="var(--fg)">
         32%
       </text>
-      <text x={x(4)} y={y(17) - 14} textAnchor="end" fontSize={16} fontWeight={700} fill="var(--accent)">
+      <text x={x(4)} y={y(17) - 18} textAnchor="end" fontSize={16} fontWeight={700} fill="var(--accent)">
         17%
       </text>
-      <text x={x(4)} y={y(17) + 2} textAnchor="end" fontSize={12} fill="var(--fg-faint)">
+      <text x={x(4)} y={y(17) + 24} textAnchor="end" fontSize={12} fill="var(--fg-faint)">
         still falling
       </text>
       <text x={VB_W / 2} y={pad.t - 14} textAnchor="middle" fontSize={13} fill="var(--fg-faint)">
