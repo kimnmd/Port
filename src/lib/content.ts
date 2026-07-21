@@ -115,14 +115,14 @@ export const nav = [
 export const hero = {
   kicker: "HR leader who builds",
   statement:
-    "I find the systemic problems nobody assigned me: a 32% pay-equity gap, an 8-hour onboarding day, a 34% turnover rate. Then I quantify them with regulator-grade rigor and build the monitoring that keeps them solved. It's HR run as systems, not events.",
+    "I find the systemic problems nobody assigned me: a 27% pay-equity gap, an 8-hour onboarding day, a 34% turnover rate. Then I quantify them with regulator-grade rigor and build the monitoring that keeps them solved. It's HR run as systems, not events.",
   primaryCta: { label: "Get in touch", href: "/about/who-i-am" },
   secondaryCta: { label: "How I think", href: "/thinking" },
 };
 
 export const metrics: Metric[] = [
   {
-    count: 32,
+    count: 27,
     suffix: "%",
     label: "compa-ratio pay-equity gap identified and remediated via a funded 3-year plan",
   },
@@ -541,7 +541,7 @@ export const essays: Essay[] = [
     readingTime: "3 min read",
     body: [
       "Every operational role comes with an implicit instruction: process what's approved. Run the payroll, close the case, onboard the hire, file the report. The instruction is reasonable, since throughput matters, but it quietly trains people to treat anomalies as friction to be smoothed over rather than signal to be investigated. The number that won't reconcile becomes something you force into the total instead of the thing you stop and chase.",
-      "I think that's backwards. The anomaly is the most information-dense thing in the whole process. A figure that reconciles tells you the system worked as designed; a figure that doesn't is the system trying to tell you something it wasn't designed to say. The quarterly payroll audit that kept surfacing compensation that didn't track to role, tenure, or performance wasn't noise in an otherwise clean process. It was a 32% pay-equity gap announcing itself, one irreconcilable row at a time.",
+      "I think that's backwards. The anomaly is the most information-dense thing in the whole process. A figure that reconciles tells you the system worked as designed; a figure that doesn't is the system trying to tell you something it wasn't designed to say. The quarterly payroll audit that kept surfacing compensation that didn't track to role, tenure, or performance wasn't noise in an otherwise clean process. It was a 27% pay-equity gap announcing itself, one irreconcilable row at a time.",
       "The reason anomalies get ignored isn't laziness. It's that chasing them is nobody's assigned job. The job description says process what's approved, not interrogate why it was approved. So the work of turning an anomaly into a finding is almost always work you assign yourself. That's the part people miss when they call it initiative: it isn't enthusiasm, it's a decision to treat the discrepancy as your problem before anyone tells you it is.",
       "There's a discipline to doing this well, because not every anomaly is a crisis. The skill is triage: quantify quickly, distinguish structure from randomness, and escalate only what survives the test. A single odd number is a rounding error; the same pattern across roles and tenure bands is a liability. Compa-ratios, market benchmarks, and four-fifths rule testing exist precisely to tell those two apart before you spend anyone's political capital.",
       "Process what's approved is a fine baseline. But the value you add above the baseline lives entirely in the moments you refuse to. The anomaly isn't the interruption to the work. It is the work.",

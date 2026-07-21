@@ -76,7 +76,7 @@ export default function WhoIAmPage() {
                 <p className="mt-4 text-[17px] leading-[1.8] text-fg-soft">
                   What ties the work together is a habit of looking where no one else is looking,
                   then building the system that answers the question. It&rsquo;s the compensation
-                  analysis that quantified a 32% equity gap, the density-first recovery that cut
+                  analysis that quantified a 27% equity gap, the density-first recovery that cut
                   voluntary turnover from 31% to 12%, and the survey that showed growth-focused
                   programs more than doubled employee satisfaction.
                 </p>
