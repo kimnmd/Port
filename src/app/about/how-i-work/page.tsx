@@ -328,7 +328,11 @@ export default function HowIWorkPage() {
               <div className="mx-auto mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent">
                 {stat.icon}
               </div>
-              <div className="whitespace-nowrap font-display text-2xl font-semibold tracking-tight text-fg sm:text-3xl">
+              <div
+                className={`whitespace-nowrap font-display font-semibold tracking-tight text-fg ${
+                  stat.text ? "text-xl sm:text-2xl" : "text-2xl sm:text-3xl"
+                }`}
+              >
                 {stat.text ? stat.text : <Counter to={stat.value ?? 0} suffix={stat.suffix} />}
               </div>
               <p className="mt-1.5 text-sm leading-snug text-fg-soft">{stat.label}</p>
