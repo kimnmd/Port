@@ -62,6 +62,14 @@
     text-rendering: optimizeLegibility;
   }
 
+  /* Display serif (Fraunces): turn off the fancy fi/ff ligatures and pin a
+     proper display optical size so letterforms like "f" read conventionally. */
+  .font-display {
+    font-variation-settings: "opsz" 72;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "dlig" 0, "calt" 0;
+  }
+
   ::selection {
     background-color: var(--accent);
     color: var(--accent-contrast);
