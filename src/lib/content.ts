@@ -143,7 +143,7 @@ export const metrics: Metric[] = [
 
 export const howIWork: Principle[] = [
   {
-    title: "The anomaly is the assignment",
+    title: "What doesn't add up is the real work",
     body: "The job description says process what's approved. I decided the figures that wouldn't reconcile were the real work, and went looking for the systemic problems no one assigned me.",
   },
   {
