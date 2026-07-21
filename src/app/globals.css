@@ -65,10 +65,12 @@
     font-variant-ligatures: none;
   }
 
-  /* Display serif (Fraunces): turn off the fancy fi/ff ligatures and pin a
-     proper display optical size so letterforms like "f" read conventionally. */
+  /* Display serif (Fraunces): let optical sizing follow the font size so
+     small display text (quotes, stats) keeps calm, conventional letterforms
+     instead of the ornate large-size "f"/"j" curls. Ligatures off site-wide
+     via the body rule above. */
   .font-display {
-    font-variation-settings: "opsz" 72;
+    font-optical-sizing: auto;
     font-variant-ligatures: none;
     font-feature-settings: "liga" 0, "dlig" 0, "calt" 0;
   }
